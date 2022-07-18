@@ -2,18 +2,6 @@ import React from "react";
 import {Nav, Navbar, NavDropdown, Container} from "react-bootstrap";
 import { HashLink } from "react-router-hash-link";
 
-const styles = {
-  links: {
-    textDecoration: 'none',
-    color: 'inherit'
-  },
-  hashlink: {
-    margin: '1.9% 0.5% 0% 0.5%',
-    textDecoration: 'none',
-    color: 'gray',
-    whiteSpace: 'nowrap'
-  }
-}
 
 const NavBar = () => {
     return (
@@ -26,10 +14,10 @@ const NavBar = () => {
             {/* <Nav.Link href="/about-me">About Me og</Nav.Link> */}
             {/* <HashLink smooth to='/#about-me' style = {styles.hashlink}> About Me hashlink</HashLink> */}
             {/* <Nav.Link><HashLink smooth to='/#about-me'> About Me no style</HashLink></Nav.Link> */}
-            <HashLink smooth to='/#about-me' style = {styles.hashlink}> About Me</HashLink>
-            <HashLink smooth to='/#education' style = {styles.hashlink}> Education</HashLink>
-            <HashLink smooth to='/#research' style = {styles.hashlink}> Research</HashLink>
-            <HashLink smooth to='/#publications' style = {styles.hashlink}> Publications</HashLink>
+            <HashLink smooth to='/#about-me' className="hashlink"> About Me</HashLink>
+            <HashLink smooth to='/#education' className="hashlink"> Education</HashLink>
+            <HashLink smooth to='/#research' className="hashlink"> Research</HashLink>
+            <HashLink smooth to='/#publications' className="hashlink"> Publications</HashLink>
             {/* <Nav.Link href="/education">Education</Nav.Link> */}
             {/* <Nav.Link href="#pricing">Research</Nav.Link>
             <Nav.Link href="#pricing">Publications</Nav.Link> */}
@@ -43,7 +31,7 @@ const NavBar = () => {
           </Nav>
           <Nav>
             {/* <Nav.Link href="#deets">abcd</Nav.Link> */}
-            <HashLink smooth to='/#contact-me' style = {styles.hashlink}>Contact Me</HashLink>
+            <HashLink smooth to='/#contact-me' className="hashlink">Contact Me</HashLink>
             {/* <Nav.Link eventKey={2} href="#memes"> */}
               {/* abcd */}
             {/* </Nav.Link> */}
