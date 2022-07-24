@@ -11,9 +11,6 @@ const NavBar = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              {/* <Nav.Link href="/about-me">About Me og</Nav.Link> */}
-              {/* <HashLink smooth to='/#about-me' style = {styles.hashlink}> About Me hashlink</HashLink> */}
-              {/* <Nav.Link><HashLink smooth to='/#about-me'> About Me no style</HashLink></Nav.Link> */}
               <HashLink smooth to="/#about-me" className="hashlink">
                 About Me
               </HashLink>
@@ -26,9 +23,6 @@ const NavBar = () => {
               <HashLink smooth to="/#publications" className="hashlink">
                 Publications
               </HashLink>
-              {/* <Nav.Link href="/education">Education</Nav.Link> */}
-              {/* <Nav.Link href="#pricing">Research</Nav.Link>
-  <Nav.Link href="#pricing">Publications</Nav.Link> */}
               <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
@@ -44,13 +38,21 @@ const NavBar = () => {
               </NavDropdown>
             </Nav>
             <Nav>
-              {/* <Nav.Link href="#deets">abcd</Nav.Link> */}
+              <NavDropdown title="All Research" id="collasible-nav-dropdown">
+                <NavDropdown.Item href="/research-1">
+                  Research1
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/research-2">
+                  Research2
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/research-3">
+                  Research3
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+              </NavDropdown>
               <HashLink smooth to="/#contact-me" className="hashlink">
                 Contact Me
               </HashLink>
-              {/* <Nav.Link eventKey={2} href="#memes"> */}
-              {/* abcd */}
-              {/* </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
