@@ -72,7 +72,7 @@ const Home = () => {
         </div>
       </div>
       <div id="publications" style={styles.overallDiv}>
-        <img src={picture} alt="Me" style={styles.aboutMeImg} />
+        {/* <img src={picture} alt="Me" style={styles.aboutMeImg} /> */}
         <div style={styles.aboutMeText}>{PublicationsText}</div>
       </div>
     </div>

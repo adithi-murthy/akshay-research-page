@@ -83,12 +83,12 @@ const ResearchText = (
         </MDBCardFooter>
       </MDBCard>
       <MDBCard>
-        <a href="/research-3">
-          <MDBRipple
-            rippleColor="light"
-            rippleTag="div"
-            className="bg-image hover-overlay"
-          >
+        <MDBRipple
+          rippleColor="light"
+          rippleTag="div"
+          className="bg-image hover-overlay"
+        >
+          <a href="/research-3">
             <MDBCardImage
               src="https://mdbootstrap.com/img/new/standard/city/043.webp"
               fluid
@@ -100,8 +100,8 @@ const ResearchText = (
                 style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}
               ></div>
             </a>
-          </MDBRipple>
-        </a>
+          </a>
+        </MDBRipple>
         {/* <MDBCardImage
           src="https://mdbootstrap.com/img/new/standard/city/043.webp"
           alt="..."
