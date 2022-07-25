@@ -7,6 +7,7 @@ import Footer from "./Components/Footer";
 import Research1 from "./Screens/Research/Research-1";
 import Research2 from "./Screens/Research/Research-2";
 import Research3 from "./Screens/Research/Research-3";
+import Publications from "./Screens/Publications";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/research-1" component={Research1} />
           <Route path="/research-2" component={Research2} />
           <Route path="/research-3" component={Research3} />
+          <Route path="/publications" component={Publications} />
           <Route path="/" component={Home} />
         </Switch>
         <Footer />

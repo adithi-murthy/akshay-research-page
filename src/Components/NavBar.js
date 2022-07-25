@@ -23,22 +23,13 @@ const NavBar = () => {
               <HashLink smooth to="/#publications" className="hashlink">
                 Publications
               </HashLink>
-              <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
             </Nav>
             <Nav>
-              <NavDropdown title="All Research" id="collasible-nav-dropdown">
+              <NavDropdown
+                title="All Research"
+                id="collasible-nav-dropdown"
+                className="hashlink"
+              >
                 <NavDropdown.Item href="/research-1">
                   Research1
                 </NavDropdown.Item>
@@ -50,7 +41,19 @@ const NavBar = () => {
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
               </NavDropdown>
-              <HashLink smooth to="/#contact-me" className="hashlink">
+              <Nav.Link
+                href="/publications"
+                className="hashlink"
+                // style={{ whiteSpace: "nowrap" }}
+              >
+                Publication List
+              </Nav.Link>
+              <HashLink
+                smooth
+                to="/#contact-me"
+                // className="hashlink"
+                className="contact-me"
+              >
                 Contact Me
               </HashLink>
             </Nav>

@@ -1,19 +1,19 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-    /* font-family: Roboto, Helvetica, Arial, sans-serif; */
+  /* font-family: Roboto, Helvetica, Arial, sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-.hashlink{
+.hashlink {
   margin: 2% 2% 0% 2%;
   text-decoration: none;
   color: gray;
@@ -22,7 +22,21 @@ code {
   transition: border-bottom 0.75s;
 }
 
-.hashlink:hover{
+.hashlink:hover {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.contact-me {
+  margin-top: 4.5%;
+  text-decoration: none;
+  color: gray;
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.75s;
+}
+
+.contact-me:hover {
   color: white;
   border-bottom: 2px solid white;
 }

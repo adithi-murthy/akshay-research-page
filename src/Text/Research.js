@@ -28,7 +28,7 @@ const ResearchText = (
             <a>
               <div
                 className="mask"
-                style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}
+                style={{ backgroundColor: "rgba(251, 251, 251, 0.25)" }}
               ></div>
             </a>
           </MDBRipple>
@@ -61,7 +61,7 @@ const ResearchText = (
             <a>
               <div
                 className="mask"
-                style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}
+                style={{ backgroundColor: "rgba(251, 251, 251, 0.25)" }}
               ></div>
             </a>
           </MDBRipple>
@@ -83,25 +83,26 @@ const ResearchText = (
         </MDBCardFooter>
       </MDBCard>
       <MDBCard>
+        <a href="/research-3">
         <MDBRipple
           rippleColor="light"
           rippleTag="div"
           className="bg-image hover-overlay"
         >
-          <a href="/research-3">
-            <MDBCardImage
-              src="https://mdbootstrap.com/img/new/standard/city/043.webp"
-              fluid
-              alt="..."
-            />
-            <a>
-              <div
-                className="mask"
-                style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}
-              ></div>
-            </a>
-          </a>
+          {/* <a href="/research-3"> */}
+          <MDBCardImage
+            href="/research-3"
+            src="https://mdbootstrap.com/img/new/standard/city/043.webp"
+            fluid
+            alt="..."
+          />
+            <div
+              className="mask"
+              style={{ backgroundColor: "rgba(251, 251, 251, 0.25)" }}
+            ></div>
+          {/* </a> */}
         </MDBRipple>
+          </a>
         {/* <MDBCardImage
           src="https://mdbootstrap.com/img/new/standard/city/043.webp"
           alt="..."
