@@ -40,3 +40,7 @@ code {
   color: white;
   border-bottom: 2px solid white;
 }
+
+.dropdown {
+  margin-left: -3%;
+}
