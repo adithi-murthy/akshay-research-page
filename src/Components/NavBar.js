@@ -67,14 +67,12 @@ const NavBar = () => {
               <Nav.Link
                 href="/publications"
                 className="hashlink"
-                // style={{ whiteSpace: "nowrap" }}
               >
                 Publication List
               </Nav.Link>
               <HashLink
                 smooth
                 to="/#contact-me"
-                // className="hashlink"
                 className="contact-me"
               >
                 Contact Me

@@ -44,3 +44,16 @@ code {
 .dropdown {
   margin-left: -3%;
 }
+
+.link {
+  text-decoration: none;
+  color: rgb(0, 3, 46);
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.75s;
+}
+
+.link:hover {
+  color: blue;
+  border-bottom: 2px solid blue;
+}

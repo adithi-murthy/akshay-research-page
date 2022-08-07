@@ -42,13 +42,16 @@ const AboutMeText = (
       aliquet massa. Sed bibendum sapien sit amet ex luctus, et finibus enim
       fermentum. Fusce vitae turpis mollis, suscipit sapien sed, sodales elit.
     </p>
-    <a href="#">DOWNLOAD CV</a>
-    <h3>Latest Publications</h3>
-    <a href="#">
-      <p>Publication #1</p>
+    <a href="#" className="link">
+      DOWNLOAD CV
     </a>
-    <a href="#">
-      <p>Publication #2</p>
+    <h3>Latest Publications</h3>
+    <a href="#" className="link">
+      Publication #1
+    </a>
+    <br></br>
+    <a href="#" className="link">
+      Publication #2
     </a>
   </div>
 );
