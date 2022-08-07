@@ -2,10 +2,10 @@ import React from "react";
 import picture from "../assets/person.jpeg";
 import exampleTimeline from "../assets/example-timeline.png";
 import timeline from "../assets/timeline.png";
-import AboutMeText from "../Text/AboutMe";
+import AboutMeText from "./AboutMe";
 import EducationText from "../Text/Education";
-import ResearchText from "../Text/Research";
-import PublicationsText from "../Text/Publications";
+import ResearchText from "./Research";
+import PublicationsText from "./Publications";
 
 const styles = {
   overallDiv: {

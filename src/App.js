@@ -7,7 +7,7 @@ import Footer from "./Components/Footer";
 import Research1 from "./Screens/Research/Research-1";
 import Research2 from "./Screens/Research/Research-2";
 import Research3 from "./Screens/Research/Research-3";
-import Publications from "./Screens/Publications";
+import Publications from "./Screens/AllPublications";
 
 function App() {
   return (
