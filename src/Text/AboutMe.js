@@ -42,10 +42,10 @@ const AboutMeText = (
       aliquet massa. Sed bibendum sapien sit amet ex luctus, et finibus enim
       fermentum. Fusce vitae turpis mollis, suscipit sapien sed, sodales elit.
     </p>
-    <a href="#" className="link">
+    <a href="#" className="link" style={{fontWeight: "bold"}}>
       DOWNLOAD CV
     </a>
-    <h3>Latest Publications</h3>
+    <h3 style={{ marginTop: "5%" }}>Latest Publications:</h3>
     <a href="#" className="link">
       Publication #1
     </a>
