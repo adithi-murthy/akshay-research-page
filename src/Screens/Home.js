@@ -19,7 +19,7 @@ const styles = {
     margin: "5% 5% 0% 5%",
   },
   educationImg: {
-    margin: "5% 0% 15% 15%",
+    margin: "5% 0% 15% 5%",
   },
   educationText: {
     margin: "5% 5% 0% 0%",
@@ -35,7 +35,7 @@ const styles = {
     margin: "5% 0% 0% -15%",
   },
   publications: {
-    margin: "5% 0% 0% 30%",
+    margin: "5% 0% 0% 15%",
   },
 };
 const Home = () => {
@@ -47,29 +47,14 @@ const Home = () => {
       </div>
       <div id="education" style={styles.overallDiv}>
         <h1 style={{ margin: "0% 0% 0% 15%" }}>Education</h1>
-        {/* <div>
-          <p style={{ margin: "100% 0% 180% 0%", whiteSpace: "nowrap" }}>
-            2012-2015
-          </p>
-          <p style={{ margin: "5% 0% 0% 0%" }}>2015-2020</p>
-        </div> */}
-        {/* <img
-          src={timeline}
-          alt="education-timeline"
-          style={styles.timelineImg}
-        /> */}
         <img src={exampleTimeline} style={styles.exampleTimeline} />
-        {/* <div style={styles.educationText}>{EducationText}</div> */}
         <img src={picture} alt="Me" style={styles.educationImg} />
       </div>
       <div
         id="research"
-        // style={styles.overallDiv}
       >
         <h1>Research</h1>
-        {/* <img src={picture} alt="Me" style={styles.aboutMeImg} /> */}
         <div
-        // style={styles.aboutMeText}
         >
           {ResearchText}
         </div>
@@ -77,7 +62,6 @@ const Home = () => {
       <div id="publications" 
       style={styles.overallDiv}
       >
-        {/* <img src={picture} alt="Me" style={styles.aboutMeImg} /> */}
         <div 
         style={styles.publications}
         >{PublicationsText}</div>
