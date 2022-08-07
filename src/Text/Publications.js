@@ -12,8 +12,8 @@ import {
 
 const styles = {
   card: {
-    // justifyContent: "center",
-    // marginLeft: "50%",
+    marginBottom: "8%",
+    maxWidth: "540px"
   },
   button: {
     margin: "1% 0% 5% 30%",
@@ -38,7 +38,7 @@ const PublicationsText = (
       </MDBBtn>
     </div>
 
-    <MDBCard style={{ maxWidth: "540px" }}>
+    <MDBCard style={styles.card}>
       <MDBRow className="g-0">
         <MDBCol md="4">
           <MDBCardImage
@@ -63,7 +63,7 @@ const PublicationsText = (
       </MDBRow>
     </MDBCard>
 
-    <MDBCard style={{ maxWidth: "540px" }}>
+    <MDBCard style={styles.card}>
       <MDBRow className="g-0">
         <MDBCol md="4">
           <MDBCardImage
@@ -88,7 +88,7 @@ const PublicationsText = (
       </MDBRow>
     </MDBCard>
 
-    <MDBCard style={{ maxWidth: "540px" }}>
+    <MDBCard style={styles.card}>
       <MDBRow className="g-0">
         <MDBCol md="4">
           <MDBCardImage
