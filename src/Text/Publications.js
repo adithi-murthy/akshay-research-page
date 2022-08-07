@@ -7,10 +7,36 @@ import {
   MDBCardImage,
   MDBRow,
   MDBCol,
+  MDBBtn,
 } from "mdb-react-ui-kit";
+
+const styles = {
+  card: {
+    // justifyContent: "center",
+    // marginLeft: "50%",
+  },
+  button: {
+    margin: "1% 0% 5% 30%",
+  },
+  divvy: {
+    display: "flex",
+    justifyContent: "spaceBetween",
+  },
+};
+
 const PublicationsText = (
   <div>
-    <h1>Publications</h1>
+    <div style={styles.divvy}>
+      <h1>Publications</h1>
+      <MDBBtn
+        className=""
+        color="dark"
+        style={styles.button}
+        href="/publications"
+      >
+        All Publications
+      </MDBBtn>
+    </div>
 
     <MDBCard style={{ maxWidth: "540px" }}>
       <MDBRow className="g-0">

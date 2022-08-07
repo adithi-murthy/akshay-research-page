@@ -34,6 +34,9 @@ const styles = {
     width: "auto",
     margin: "5% 0% 0% -15%",
   },
+  publications: {
+    margin: "5% 0% 0% 30%",
+  },
 };
 const Home = () => {
   return (
@@ -71,9 +74,13 @@ const Home = () => {
           {ResearchText}
         </div>
       </div>
-      <div id="publications" style={styles.overallDiv}>
+      <div id="publications" 
+      style={styles.overallDiv}
+      >
         {/* <img src={picture} alt="Me" style={styles.aboutMeImg} /> */}
-        <div style={styles.aboutMeText}>{PublicationsText}</div>
+        <div 
+        style={styles.publications}
+        >{PublicationsText}</div>
       </div>
     </div>
   );
