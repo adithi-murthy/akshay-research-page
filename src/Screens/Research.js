@@ -10,7 +10,8 @@ import {
   MDBBtn,
   MDBRipple,
 } from "mdb-react-ui-kit";
-const ResearchText = (
+import { Research1, Research1Description, Research2, Research2Description, Research3, Research3Description } from "../Text/Research";
+const Research = (
   <>
   <h1>Research</h1>
     <MDBCardGroup>
@@ -35,10 +36,9 @@ const ResearchText = (
           </MDBRipple>
         </a>
         <MDBCardBody>
-          <MDBCardTitle>Research 1</MDBCardTitle>
+          <MDBCardTitle>{Research1}</MDBCardTitle>
           <MDBCardText>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+            {Research1Description}
           </MDBCardText>
           <MDBBtn href="#">Button</MDBBtn>
         </MDBCardBody>
@@ -68,10 +68,9 @@ const ResearchText = (
           </MDBRipple>
         </a>
         <MDBCardBody>
-          <MDBCardTitle>Research 2</MDBCardTitle>
+          <MDBCardTitle>{Research2}</MDBCardTitle>
           <MDBCardText>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content.
+            {Research2Description}
           </MDBCardText>
         </MDBCardBody>
         <MDBCardFooter>
@@ -98,11 +97,9 @@ const ResearchText = (
           </MDBRipple>
         </a>
         <MDBCardBody>
-          <MDBCardTitle>Research 3</MDBCardTitle>
+          <MDBCardTitle>{Research3}</MDBCardTitle>
           <MDBCardText>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
+            {Research3Description}
           </MDBCardText>
         </MDBCardBody>
         <MDBCardFooter>
@@ -112,4 +109,4 @@ const ResearchText = (
     </MDBCardGroup>
   </>
 );
-export default ResearchText;
+export default Research;

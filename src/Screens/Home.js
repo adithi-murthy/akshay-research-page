@@ -2,9 +2,9 @@ import React from "react";
 import picture from "../assets/person.jpeg";
 import exampleTimeline from "../assets/example-timeline.png";
 import timeline from "../assets/timeline.png";
-import AboutMeText from "./AboutMe";
+import AboutMe from "./AboutMe";
 import EducationText from "../Text/Education";
-import ResearchText from "./Research";
+import Research from "./Research";
 import PublicationsText from "./Publications";
 
 const styles = {
@@ -44,7 +44,7 @@ const Home = () => {
       <a id="about-me"></a>
       <div style={styles.overallDiv}>
         <img src={picture} alt="Me" style={styles.aboutMeImg} />
-        <div style={styles.aboutMeText}>{AboutMeText}</div>
+        <div style={styles.aboutMeText}>{AboutMe}</div>
       </div>
       <div id="education" style={{ marginBottom: "5%" }}></div>
       <div 
@@ -56,7 +56,7 @@ const Home = () => {
       </div>
       <div id="research"></div>
       <div>
-        <div style={{ marginTop: "5%" }}>{ResearchText}</div>
+        <div style={{ marginTop: "5%" }}>{Research}</div>
       </div>
       <div id="publications" style={styles.overallDiv}>
         <div style={styles.publications}>{PublicationsText}</div>

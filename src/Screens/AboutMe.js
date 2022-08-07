@@ -1,5 +1,5 @@
 import { MDBIcon } from "mdb-react-ui-kit";
-import {Name, JobTitle, AboutMeText, Publication1, Publication2} from "../Text/AboutMe"
+import {Name, JobTitle, AboutMeText, Publication1, Publication2, Publication1Link, Publication2Link, CVLink} from "../Text/AboutMe"
 
 const AboutMe = (
   <div>
@@ -32,15 +32,15 @@ const AboutMe = (
     <p>
       {AboutMeText}
     </p>
-    <a href="#" className="link" style={{fontWeight: "bold"}}>
+    <a href={CVLink} className="link" style={{fontWeight: "bold"}}>
       DOWNLOAD CV
     </a>
     <h3 style={{ marginTop: "5%" }}>Latest Publications:</h3>
-    <a href="#" className="link">
+    <a href={Publication1Link} className="link">
       {Publication1}
     </a>
     <br></br>
-    <a href="#" className="link">
+    <a href={Publication2Link} className="link">
       {Publication2}
     </a>
   </div>

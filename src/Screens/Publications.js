@@ -12,7 +12,7 @@ import {
 
 const styles = {
   card: {
-    marginBottom: "8%",
+    marginBottom: "3%",
     maxWidth: "1000px",
   },
   img:{
@@ -95,7 +95,7 @@ const PublicationsText = (
     </MDBCard>
 
     <MDBCard style={styles.card}>
-      <MDBRow>
+      <MDBRow className="g-0">
         <MDBCol md="4">
           <MDBCardImage
             src="https://www.gardendesign.com/pictures/images/675x529Max/site_3/helianthus-yellow-flower-pixabay_11863.jpg"
