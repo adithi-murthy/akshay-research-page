@@ -12,6 +12,7 @@ import {
 } from "mdb-react-ui-kit";
 const ResearchText = (
   <>
+  <h1>Research</h1>
     <MDBCardGroup>
       <MDBCard>
         <a href="/research-1">
