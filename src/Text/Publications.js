@@ -13,10 +13,13 @@ import {
 const styles = {
   card: {
     marginBottom: "8%",
-    maxWidth: "540px"
+    maxWidth: "1000px",
+  },
+  img:{
+    margin: "0% 0% 0% 0%"
   },
   button: {
-    margin: "1% 0% 5% 30%",
+    margin: "1% 0% 5% 60%",
   },
   divvy: {
     display: "flex",
@@ -41,10 +44,11 @@ const PublicationsText = (
     <MDBCard style={styles.card}>
       <MDBRow className="g-0">
         <MDBCol md="4">
-          <MDBCardImage
-            src="https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.webp"
+          <MDBCardImage 
+            src="https://www.gardendesign.com/pictures/images/675x529Max/site_3/helianthus-yellow-flower-pixabay_11863.jpg"
             alt="..."
             fluid
+            style={styles.img}
           />
         </MDBCol>
         <MDBCol md="8">
@@ -58,6 +62,7 @@ const PublicationsText = (
             <MDBCardText>
               <small className="text-muted">Last updated 3 mins ago</small>
             </MDBCardText>
+            <a href="#" className="link">Read the publication here</a>
           </MDBCardBody>
         </MDBCol>
       </MDBRow>
@@ -67,7 +72,7 @@ const PublicationsText = (
       <MDBRow className="g-0">
         <MDBCol md="4">
           <MDBCardImage
-            src="https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.webp"
+            src="https://www.gardendesign.com/pictures/images/675x529Max/site_3/helianthus-yellow-flower-pixabay_11863.jpg"
             alt="..."
             fluid
           />
@@ -83,16 +88,17 @@ const PublicationsText = (
             <MDBCardText>
               <small className="text-muted">Last updated 3 mins ago</small>
             </MDBCardText>
+            <a href="#" className="link">Read the publication here</a>
           </MDBCardBody>
         </MDBCol>
       </MDBRow>
     </MDBCard>
 
     <MDBCard style={styles.card}>
-      <MDBRow className="g-0">
+      <MDBRow>
         <MDBCol md="4">
           <MDBCardImage
-            src="https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.webp"
+            src="https://www.gardendesign.com/pictures/images/675x529Max/site_3/helianthus-yellow-flower-pixabay_11863.jpg"
             alt="..."
             fluid
           />
@@ -108,6 +114,7 @@ const PublicationsText = (
             <MDBCardText>
               <small className="text-muted">Last updated 3 mins ago</small>
             </MDBCardText>
+            <a href="#" className="link">Read the publication here</a>
           </MDBCardBody>
         </MDBCol>
       </MDBRow>
