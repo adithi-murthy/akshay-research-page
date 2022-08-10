@@ -1,9 +1,9 @@
 export const Name = "Akshay Murthy"
 export const JobTitle = "Researcher at Fermi National Accelerator Laboratory"
 export const AboutMeText =
-  "Pulled from the about me text page: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at faucibus turpis. Pellentesque tempor rutrum dignissim. Quisque egestas luctus commodo. Vestibulum congue convallis quam, eu rhoncus felis sodales quis. Suspendisse tincidunt quis urna at tristique. Vestibulum sempereuismod dapibus. Donec placerat nisl vehicula erat tempor dapibus. Aliquamporttitor purus sem, ut ultrices enim placerat eget. Nulla vitae mifaucibus, auctor massa in, auctor augue. Morbi eu est pharetra, mollis leoquis, porttitor erat. Orci varius natoque penatibus et magnis disparturient montes, nascetur ridiculus mus. Donec in orci a nisi rhoncus tempor et et dolor. Quisque lectus nunc, condimentum eu leo id, pulvinar aliquet massa. Sed bibendum sapien sit amet ex luctus, et finibus enim fermentum. Fusce vitae turpis mollis, suscipit sapien sed, sodales elit.";
+"I am an Associate Scientist at Fermilab investigating superconducting resonators and transmons through the use of electron microscopy and other advanced materials characterization techniques. I previously obtained my PhD in Materials Science and Engineering at Northwestern University. My thesis research focused on studying two-dimensional materials for next generation electronic device applications.";
 export const CVLink = "https://illinois.edu"
-export const Publication1 = "My Most Recent Publication"
-export const Publication2 = "My 2nd Most Recent Publication"
-export const Publication1Link = "https://google.com"
-export const Publication2Link = "https://linkedin.com"
+export const Publication1 = "My Most Recent Publication: https://arxiv.org/abs/2203.08710"
+export const Publication2 = "My 2nd Most Recent Publication: https://aip.scitation.org/doi/full/10.1063/5.0079321"
+export const Publication1Link = "https://scholar.google.com/citations?user=k7on3FAAAAAJ&hl=en"
+export const Publication2Link = "https://www.linkedin.com/in/akshaymurthy1/"

@@ -1,6 +1,6 @@
 const EducationText = (
   <div>
-    <p>UIUC</p>
+    <p>University of Illinois at Urbana-Champaign</p>
     <p>Northwestern University</p>
   </div>
 );

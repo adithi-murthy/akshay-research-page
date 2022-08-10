@@ -1,18 +1,18 @@
 const FooterText = 
 <div>
     <strong>
-        Dr. FirstName LastName
+        Dr. Akshay Murthy
     </strong>
     <br/>
-        Company
+        Associate Scientist, Fermi National Accelerator Laboratory
     <br/>
-         Department
+         Superconducting Quantum Materials and Systems (SQMS) division
     <br/>
-        City, State, Zip, USA
+        Batavia, IL, 60510, USA
     <br/>
-        Phone Number
+        6308649222
     <br/>
-        Email
+        amurthy@fnal.gov
 </div>
 
 export default FooterText;
