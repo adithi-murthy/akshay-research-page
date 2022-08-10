@@ -43,6 +43,7 @@ code {
 
 .dropdown {
   margin-left: -3%;
+  margin-top: 1%
 }
 
 .link {
@@ -57,3 +58,40 @@ code {
   color: blue;
   border-bottom: 2px solid blue;
 }
+
+.drophash{
+  margin-top: 7.5%;
+}
+
+@media only screen and (max-width: 1060px) {
+  .drophash{
+    margin-top: auto;
+  }
+  .hashlink:hover {
+    border-bottom: solid transparent;
+    text-decoration: underline; 
+    text-decoration-thickness: 2px;
+    transition: text-decoration 1.5s;
+    margin: 2% 2% 0% 2%;
+  }
+  .dropdown {
+    /* padding-left: 2%; */
+    padding: 0rem 0rem 0rem 0rem;
+    margin-top: 1%;
+  }
+  .nav-link{
+    padding: 0 0 0 0;
+  }
+}
+
+/* Media Queries: Tablet Landscape
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+/* @media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+} */ 
