@@ -9,6 +9,8 @@ import {
   MDBCol,
   MDBBtn,
 } from "mdb-react-ui-kit";
+import { Publication1, Publication1Description, Publication1Link, Publication2, Publication2Description, Publication2Link, Publication3, Publication3Description, Publication3Link} from "../Text/Publications";
+
 
 const styles = {
   card: {
@@ -53,16 +55,14 @@ const PublicationsText = (
         </MDBCol>
         <MDBCol md="8">
           <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardTitle>{Publication1}</MDBCardTitle>
             <MDBCardText>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              {Publication1Description}
             </MDBCardText>
             <MDBCardText>
               <small className="text-muted">Last updated 3 mins ago</small>
             </MDBCardText>
-            <a href="#" className="link">Read the publication here</a>
+            <a href={Publication1Link} className="link">Read the publication here</a>
           </MDBCardBody>
         </MDBCol>
       </MDBRow>
@@ -79,16 +79,14 @@ const PublicationsText = (
         </MDBCol>
         <MDBCol md="8">
           <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardTitle>{Publication2}</MDBCardTitle>
             <MDBCardText>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              {Publication2Description}
             </MDBCardText>
             <MDBCardText>
               <small className="text-muted">Last updated 3 mins ago</small>
             </MDBCardText>
-            <a href="#" className="link">Read the publication here</a>
+            <a href={Publication2Link} className="link">Read the publication here</a>
           </MDBCardBody>
         </MDBCol>
       </MDBRow>
@@ -105,16 +103,14 @@ const PublicationsText = (
         </MDBCol>
         <MDBCol md="8">
           <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardTitle>{Publication3}</MDBCardTitle>
             <MDBCardText>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              {Publication3Description}
             </MDBCardText>
             <MDBCardText>
               <small className="text-muted">Last updated 3 mins ago</small>
             </MDBCardText>
-            <a href="#" className="link">Read the publication here</a>
+            <a href={Publication3Link} className="link">Read the publication here</a>
           </MDBCardBody>
         </MDBCol>
       </MDBRow>
