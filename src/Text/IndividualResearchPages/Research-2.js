@@ -1,2 +1,2 @@
 export const Research2Text =
-  "Research2 Txt: This is a wider card with supporting text below as a natural lead-into additional content. This content is a little bit longer.";
+  "A series of fabrication steps are needed to prepare quantum devices. Each of these steps can alter the structure and chemistry of the constituent materials. Through the use of in situ electron microscopy, we seek to directly observe and understand the impact of specific fabrication steps.";

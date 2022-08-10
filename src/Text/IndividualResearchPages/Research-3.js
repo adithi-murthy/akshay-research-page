@@ -1,2 +1,2 @@
 export const Research3Text =
-  "Research3 Txt: This is a wider card with supporting text below as a natural lead-into additional content. This content is a little bit longer.";
+  "With access to rich atomic level structural information and insights into the processes from which they arise, the missing piece to systematically improving the performance of quantum systems is understanding local properties. We plan to use advanced electron microscopy and diffraction techniques to observe exotic phenomena and states that can be harnessed for storing and manipulating information. Additionally, we also seek to identify inhomogeneities that limit the prevailing superconductivity and lead to information loss.";
