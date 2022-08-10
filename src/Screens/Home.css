@@ -1,0 +1,38 @@
+.overallDiv {
+  display: flex;
+  align-items: flex-start;
+}
+#aboutMeImg {
+  margin: 5% 0% 5% 15%;
+  height: auto;
+  max-width: 25%;
+}
+#aboutMeText {
+  margin: 5% 5% 0% 5%;
+  height: auto;
+  max-width: 50%;
+}
+#educationImg {
+  margin: 5% 0% 0% 5%;
+}
+#educationText {
+  margin: 5% 5% 0% 0%;
+}
+#timelineImg {
+  height: 200px;
+  width: auto;
+  margin: 5% 0% 0% 0%;
+}
+#exampleTimeline {
+  height: 300px;
+  width: auto;
+  margin: 5% 0% 0% -15%;
+}
+#publications {
+  margin: 5% 0% 0% 15%;
+}
+@media only screen and (max-width: 1060px) {
+    .overallDiv{
+
+    }
+}

@@ -1,5 +1,14 @@
 import { MDBIcon } from "mdb-react-ui-kit";
-import {Name, JobTitle, AboutMeText, Publication1, Publication2, Publication1Link, Publication2Link, CVLink} from "../Text/AboutMe"
+import {
+  Name,
+  JobTitle,
+  AboutMeText,
+  Publication1,
+  Publication2,
+  Publication1Link,
+  Publication2Link,
+  CVLink,
+} from "../Text/AboutMe";
 
 const AboutMe = (
   <div>
@@ -8,7 +17,7 @@ const AboutMe = (
     <a
       className="btn btn-primary btn-floating m-1"
       style={{ backgroundColor: "#0082ca" }}
-      href="#!"
+      href="https://www.linkedin.com/in/akshaymurthy1/"
       role="button"
     >
       <MDBIcon fab icon="linkedin-in" />
@@ -16,7 +25,7 @@ const AboutMe = (
     <a
       className="btn btn-primary btn-floating m-1"
       style={{ backgroundColor: "#dd4b39" }}
-      href="#!"
+      href="https://scholar.google.com/citations?user=k7on3FAAAAAJ&hl=en"
       role="button"
     >
       <MDBIcon far icon="envelope" />
@@ -29,20 +38,20 @@ const AboutMe = (
     >
       <MDBIcon fab icon="twitter" />
     </a>
+    <p>{AboutMeText}</p>
     <p>
-      {AboutMeText}
+      <a href={CVLink} className="link" style={{ fontWeight: "bold" }}>
+        DOWNLOAD CV
+      </a>
+      <h3 style={{ marginTop: "5%" }}>Latest Publications:</h3>
+      <a href={Publication1Link} className="link">
+        {Publication1}
+      </a>
+      <br></br>
+      <a href={Publication2Link} className="link">
+        {Publication2}
+      </a>
     </p>
-    <a href={CVLink} className="link" style={{fontWeight: "bold"}}>
-      DOWNLOAD CV
-    </a>
-    <h3 style={{ marginTop: "5%" }}>Latest Publications:</h3>
-    <a href={Publication1Link} className="link">
-      {Publication1}
-    </a>
-    <br></br>
-    <a href={Publication2Link} className="link">
-      {Publication2}
-    </a>
   </div>
 );
 

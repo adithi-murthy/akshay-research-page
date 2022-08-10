@@ -6,6 +6,7 @@ import AboutMe from "./AboutMe";
 import EducationText from "../Text/Education";
 import Research from "./Research";
 import PublicationsText from "./Publications";
+import "./Home.css";
 
 const styles = {
   overallDiv: {
@@ -42,17 +43,15 @@ const Home = () => {
   return (
     <div>
       <a id="about-me"></a>
-      <div style={styles.overallDiv}>
-        <img src={picture} alt="Me" style={styles.aboutMeImg} />
-        <div style={styles.aboutMeText}>{AboutMe}</div>
+      <div className="overallDiv">
+        <img src={picture} alt="Me" id="aboutMeImg" />
+        <div id="aboutMeText">{AboutMe}</div>
       </div>
       <div id="education" style={{ marginBottom: "5%" }}></div>
-      <div 
-      style={styles.overallDiv}
-      >
+      <div style={styles.overallDiv}>
         <h1 style={{ margin: "0% 0% 0% 15%" }}>Education</h1>
         <img src={exampleTimeline} style={styles.exampleTimeline} />
-        <img src={picture} alt="Me" style={styles.educationImg} />
+        {/* <img src={picture} alt="Me" style={styles.educationImg} /> */}
       </div>
       <div id="research"></div>
       <div>
