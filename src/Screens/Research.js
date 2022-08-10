@@ -10,6 +10,9 @@ import {
   MDBBtn,
   MDBRipple,
 } from "mdb-react-ui-kit";
+import Figure1 from "../assets/Figure1.png";
+import Figure2 from "../assets/Figure2.png";
+import Figure3 from "../assets/Figure3.png";
 import { Research1, Research1Description, Research2, Research2Description, Research3, Research3Description } from "../Text/Research";
 const Research = (
   <>
@@ -23,7 +26,7 @@ const Research = (
             className="bg-image hover-overlay"
           >
             <MDBCardImage
-              src="../assets/Figure1.png"
+              src={Figure1} id="Structure"
               fluid
               alt="..."
             />
@@ -55,7 +58,7 @@ const Research = (
             className="bg-image hover-overlay"
           >
             <MDBCardImage
-              src="../assets/Figure2.png"
+              src={Figure2} id="Processing"
               fluid
               alt="..."
             />
@@ -86,7 +89,7 @@ const Research = (
           >
             <MDBCardImage
               href="/research-3"
-              src="../assets/Figure3.png"
+              src={Figure3} id="Properties"
               fluid
               alt="..."
             />

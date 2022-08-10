@@ -11,6 +11,9 @@ import {
 } from "mdb-react-ui-kit";
 import { Publication1, Publication1Description, Publication1Link, Publication2, Publication2Description, Publication2Link, Publication3, Publication3Description, Publication3Link} from "../Text/Publications";
 
+import SIMS from "../assets/publication_images/SIMS.png";
+import DPC from "../assets/publication_images/DPC.png";
+import sulfurdiffusion from "../assets/publication_images/sulfurdiffusion.png";
 
 const styles = {
   card: {
@@ -47,7 +50,7 @@ const PublicationsText = (
       <MDBRow className="g-0">
         <MDBCol md="4">
           <MDBCardImage 
-            src="../assets/publication_images/SIMS.png"
+            src={SIMS} id="TOF-SIMS"
             alt="..."
             fluid
             style={styles.img}
@@ -72,7 +75,7 @@ const PublicationsText = (
       <MDBRow className="g-0">
         <MDBCol md="4">
           <MDBCardImage
-            src="../assets/publication_images/DPC.png"
+            src={DPC} id="DPC"
             alt="..."
             fluid
           />
@@ -96,7 +99,7 @@ const PublicationsText = (
       <MDBRow className="g-0">
         <MDBCol md="4">
           <MDBCardImage
-            src="../assets/publication_images/sulfurdiffusion.png"
+            src={sulfurdiffusion} id="sulfur_diffusion"
             alt="..."
             fluid
           />
