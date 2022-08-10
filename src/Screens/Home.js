@@ -48,10 +48,12 @@ const Home = () => {
         <div id="aboutMeText">{AboutMe}</div>
       </div>
       <div id="education" style={{ marginBottom: "5%" }}></div>
-      <div style={styles.overallDiv}>
-        <h1 style={{ margin: "0% 0% 0% 15%" }}>Education</h1>
-        <img src={exampleTimeline} style={styles.exampleTimeline} />
-        {/* <img src={picture} alt="Me" style={styles.educationImg} /> */}
+      <h1 style={{ margin: "0% 0% 0% 15%" }}>Education</h1>
+      <div className="overallDiv">
+        <div>
+          <img src={exampleTimeline} id="exampleTimeline" />
+          <img src={picture} alt="Me" id="educationImg" />
+        </div>
       </div>
       <div id="research"></div>
       <div>

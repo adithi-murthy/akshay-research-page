@@ -12,27 +12,37 @@
   height: auto;
   max-width: 50%;
 }
-#educationImg {
-  margin: 5% 0% 0% 5%;
+ #educationImg {
+  /* margin: 5% 0% 0% 5%; */
+  height: auto;
+  max-width: 50%;
 }
-#educationText {
+/* #educationText {
   margin: 5% 5% 0% 0%;
 }
 #timelineImg {
   height: 200px;
   width: auto;
   margin: 5% 0% 0% 0%;
-}
+} */
 #exampleTimeline {
-  height: 300px;
-  width: auto;
-  margin: 5% 0% 0% -15%;
+  height: auto;
+  max-width: 50%;
+  /* margin: 5% 0% 0% -15%; */
 }
 #publications {
   margin: 5% 0% 0% 15%;
 }
 @media only screen and (max-width: 1060px) {
-    .overallDiv{
+  #exampleTimeline {
+    height: auto;
+    max-width: 75%;
+    margin: 0% 0% 5% 15%;
+  }
+  #educationImg{
+    height: auto;
+    max-width: 75%;
+    margin-left: 15%;
+  }
 
-    }
 }
