@@ -55,7 +55,7 @@ const Research = (
             className="bg-image hover-overlay"
           >
             <MDBCardImage
-              src="../assets/Figure2.png"
+              src="../assets/person.jpeg"
               fluid
               alt="..."
             />
