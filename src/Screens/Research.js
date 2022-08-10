@@ -43,7 +43,7 @@ const Research = (
           <MDBBtn href="#">Button</MDBBtn>
         </MDBCardBody>
         <MDBCardFooter>
-          <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="text-muted">Last updated 30 mins ago</small>
         </MDBCardFooter>
       </MDBCard>
 
@@ -55,7 +55,7 @@ const Research = (
             className="bg-image hover-overlay"
           >
             <MDBCardImage
-              src="../assets/person.jpeg"
+              src="../assets/Figure2.png"
               fluid
               alt="..."
             />
@@ -74,7 +74,7 @@ const Research = (
           </MDBCardText>
         </MDBCardBody>
         <MDBCardFooter>
-          <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="text-muted">Last updated 30 mins ago</small>
         </MDBCardFooter>
       </MDBCard>
       <MDBCard>
@@ -103,7 +103,7 @@ const Research = (
           </MDBCardText>
         </MDBCardBody>
         <MDBCardFooter>
-          <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="text-muted">Last updated 30 mins ago</small>
         </MDBCardFooter>
       </MDBCard>
     </MDBCardGroup>
