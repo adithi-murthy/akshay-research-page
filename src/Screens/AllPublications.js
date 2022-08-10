@@ -7,7 +7,7 @@ const Publications = () => {
       <h1>Publications</h1>
       <ol>
         Publications:
-        <li>My First Publication: title <a href="https://americangirl.com">[PDF]</a> <a href="https://americangirl.com">[Online Article]</a></li>
+        <li>TOF-SIMS analysis of decoherence sources in superconducting qubits <a href="https://aip.scitation.org/doi/full/10.1063/5.0079321">[HTML]</a> </li>
         <li>My Second Publication: title [PDF] [Online Article]</li>
         <li>My Third Publication: title [PDF] [Online Article]</li>
         <li>My Fourth Publication: title [PDF] [Online Article]</li>
