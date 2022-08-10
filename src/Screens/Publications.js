@@ -47,7 +47,7 @@ const PublicationsText = (
       <MDBRow className="g-0">
         <MDBCol md="4">
           <MDBCardImage 
-            src="https://www.gardendesign.com/pictures/images/675x529Max/site_3/helianthus-yellow-flower-pixabay_11863.jpg"
+            src="../assets/publication_images/SIMS.png"
             alt="..."
             fluid
             style={styles.img}
@@ -72,7 +72,7 @@ const PublicationsText = (
       <MDBRow className="g-0">
         <MDBCol md="4">
           <MDBCardImage
-            src="https://www.gardendesign.com/pictures/images/675x529Max/site_3/helianthus-yellow-flower-pixabay_11863.jpg"
+            src="../assets/publication_images/DPC.png"
             alt="..."
             fluid
           />
@@ -96,7 +96,7 @@ const PublicationsText = (
       <MDBRow className="g-0">
         <MDBCol md="4">
           <MDBCardImage
-            src="https://www.gardendesign.com/pictures/images/675x529Max/site_3/helianthus-yellow-flower-pixabay_11863.jpg"
+            src="../assets/publication_images/sulfurdiffusion.png"
             alt="..."
             fluid
           />

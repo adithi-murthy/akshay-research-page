@@ -23,7 +23,7 @@ const Research = (
             className="bg-image hover-overlay"
           >
             <MDBCardImage
-              src="https://mdbootstrap.com/img/new/standard/nature/111.webp"
+              src="../assets/Figure1.png"
               fluid
               alt="..."
             />
@@ -55,7 +55,7 @@ const Research = (
             className="bg-image hover-overlay"
           >
             <MDBCardImage
-              src="https://mdbootstrap.com/img/new/standard/city/042.webp"
+              src="../assets/Figure2.png"
               fluid
               alt="..."
             />
@@ -86,7 +86,7 @@ const Research = (
           >
             <MDBCardImage
               href="/research-3"
-              src="https://mdbootstrap.com/img/new/standard/city/043.webp"
+              src="../assets/Figure3.png"
               fluid
               alt="..."
             />
