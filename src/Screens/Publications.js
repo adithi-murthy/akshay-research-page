@@ -10,7 +10,7 @@ import {
   MDBBtn,
 } from "mdb-react-ui-kit";
 import { Publication1, Publication1Description, Publication1Link, Publication2, Publication2Description, Publication2Link, Publication3, Publication3Description, Publication3Link} from "../Text/Publications";
-
+import './Publications.css'
 import SIMS from "../assets/publication_images/SIMS.png";
 import DPC from "../assets/publication_images/DPC.png";
 import sulfurdiffusion from "../assets/publication_images/sulfurdiffusion.png";
@@ -39,7 +39,7 @@ const PublicationsText = (
       <MDBBtn
         className=""
         color="dark"
-        style={styles.button}
+        id="allPublicationsButton"
         href="/publications"
       >
         All Publications

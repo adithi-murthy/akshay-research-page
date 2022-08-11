@@ -1,0 +1,9 @@
+#allPublicationsButton {
+  margin: 1% 0% 5% 60%;
+}
+
+@media only screen and (max-width: 1060px) {
+  #allPublicationsButton {
+    margin: 1% 0% 5% 35%
+  }
+}

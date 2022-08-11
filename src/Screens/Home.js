@@ -60,8 +60,8 @@ const Home = () => {
       <div>
         <div style={{ marginTop: "5%" }}>{Research}</div>
       </div>
-      <div id="publications" style={styles.overallDiv}>
-        <div style={styles.publications}>{PublicationsText}</div>
+      <div id="publications" className="overallDiv">
+        <div id="publications">{PublicationsText}</div>
       </div>
     </div>
   );
