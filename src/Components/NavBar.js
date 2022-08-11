@@ -18,7 +18,7 @@ const NavBar = () => {
     <>
       <Navbar sticky="top" expand="lg" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/">Homepage Name</Navbar.Brand>
+          <Navbar.Brand href="/">Akshay Murthy</Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
             style={{
