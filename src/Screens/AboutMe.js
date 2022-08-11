@@ -9,6 +9,7 @@ import {
   Publication2Link,
   CVLink,
 } from "../Text/AboutMe";
+import Pdf from '../assets/Murthy_CV.pdf';
 
 const AboutMe = (
   <div>
@@ -33,14 +34,14 @@ const AboutMe = (
     <a
       className="btn btn-primary btn-floating m-1"
       style={{ backgroundColor: "#55acee" }}
-      href="#!"
+      href="https://twitter.com/Akshay_A_Murthy"
       role="button"
     >
       <MDBIcon fab icon="twitter" />
     </a>
     <p>{AboutMeText}</p>
     <p>
-      <a href={CVLink} className="link" style={{ fontWeight: "bold" }}>
+      <a href = {Pdf} className="link" style={{ fontWeight: "bold" }}>
         DOWNLOAD CV
       </a>
       <h3 style={{ marginTop: "5%" }}>Latest Publications:</h3>

@@ -1,6 +1,7 @@
 import React from "react";
 import picture from "../assets/person.jpeg";
 import exampleTimeline from "../assets/example-timeline.png";
+import universities from "../assets/universities.jpg";
 import timeline from "../assets/timeline.png";
 import AboutMe from "./AboutMe";
 import EducationText from "../Text/Education";
@@ -52,7 +53,7 @@ const Home = () => {
       <div className="overallDiv">
         <div>
           <img src={exampleTimeline} id="exampleTimeline" />
-          <img src={picture} alt="Me" id="educationImg" />
+          <img src={universities} alt="universities" id="educationImg" />
         </div>
       </div>
       <div id="research"></div>

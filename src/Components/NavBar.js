@@ -1,7 +1,8 @@
 import React from "react";
 import { Nav, Navbar, NavDropdown, Container } from "react-bootstrap";
 import { HashLink } from "react-router-hash-link";
-
+import backgroundImage from "../assets/background.png";
+import Pdf from '../assets/Murthy_CV.pdf';
 const styles = {
   sameline: {
     display: "flex",
@@ -107,22 +108,22 @@ const NavBar = () => {
       <div
         className="p-5 text-center bg-image"
         style={{
-          backgroundImage:
-            "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          backgroundImage:`url(${backgroundImage})`,
           height: 400,
         }}
       >
         <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}>
           <div className="d-flex justify-content-center align-items-center h-100">
             <div className="text-white">
-              <h1 className="mb-3">Heading</h1>
-              <h4 className="mb-3">Subheading</h4>
+              <h1 className="mb-3">Quantum Microscopy and Spectroscopy</h1>
+              <h4 className="mb-3">Developing Structure-Processing-Properties in Quantum Materials</h4>
               <a
                 className="btn btn-outline-light btn-lg"
                 href="#!"
+                href = {Pdf}
                 role="button"
               >
-                Call to action
+                Curriculum vitae
               </a>
             </div>
           </div>
