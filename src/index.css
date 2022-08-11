@@ -16,40 +16,20 @@ code {
 .hashlink {
   margin: 2% 2% 0% 2%;
   text-decoration: none;
-  color: gray;
+  color: rgba(255,255,255,.55);
   white-space: nowrap;
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.75s;
 }
 
-.hashlink:hover {
+.hashlink:hover  {
   color: white;
   border-bottom: 2px solid white;
-}
-
-.contact-me {
-  margin-top: 4.5%;
-  text-decoration: none;
-  color: gray;
-  white-space: nowrap;
-  border-bottom: 2px solid transparent;
-  transition: border-bottom 0.75s;
-}
-
-.contact-me:hover {
-  color: white;
-  border-bottom: 2px solid white;
-}
-
-.dropdown {
-  margin-left: -3%;
-  margin-top: 1%
 }
 
 .link {
   text-decoration: none;
   color: rgb(0, 3, 46);
-  /* white-space: nowrap; */
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.75s;
 }
@@ -59,28 +39,13 @@ code {
   border-bottom: 2px solid blue;
 }
 
-.drophash{
-  margin-top: 7.5%;
-}
-
 @media only screen and (max-width: 1060px) {
-  .drophash{
-    margin-top: auto;
-  }
-  .hashlink:hover {
+  .hashlink:hover{
     border-bottom: solid transparent;
-    text-decoration: underline; 
+    text-decoration: underline;
     text-decoration-thickness: 2px;
     transition: text-decoration 1.5s;
     margin: 2% 2% 0% 2%;
-  }
-  .dropdown {
-    /* padding-left: 2%; */
-    padding: 0rem 0rem 0rem 0rem;
-    margin-top: 1%;
-  }
-  .nav-link{
-    padding: 0 0 0 0;
   }
 }
 
@@ -94,4 +59,4 @@ code {
 /* @media screen and (max-width: 768px) {
   #primary { width:100%; }
   #secondary { width:100%; margin:0; border:none; }
-} */ 
+} */

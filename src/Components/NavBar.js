@@ -2,16 +2,7 @@ import React from "react";
 import { Nav, Navbar, NavDropdown, Container } from "react-bootstrap";
 import { HashLink } from "react-router-hash-link";
 import backgroundImage from "../assets/background.png";
-import Pdf from '../assets/Murthy_CV.pdf';
-const styles = {
-  sameline: {
-    display: "flex",
-    justifyContent: "spaceBetween",
-  },
-  drophash: {
-    marginTop: "7.5%",
-  },
-};
+import Pdf from "../assets/Murthy_CV.pdf";
 
 const NavBar = () => {
   return (
@@ -34,72 +25,38 @@ const NavBar = () => {
               <HashLink smooth to="/#education" className="hashlink">
                 Education
               </HashLink>
-              <div style={styles.sameline}>
-                <HashLink
-                  smooth
-                  to="/#research"
-                  className="hashlink drophash"
-                >
-                  Research
-                </HashLink>
-                <NavDropdown
-                  title=""
-                  id="collasible-nav-dropdown"
-                  className="dropdown"
-                >
-                  <NavDropdown.Item href="/research-1">
-                    Research1
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="/research-2">
-                    Research2
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="/research-3">
-                    Research3
-                  </NavDropdown.Item>
-                </NavDropdown>
-              </div>
-              <div style={styles.sameline}>
-                <HashLink
-                  smooth
-                  to="/#publications"
-                  className="hashlink"
-                  style={styles.drophash}
-                >
-                  Publications
-                </HashLink>
-                <NavDropdown
-                  title=""
-                  id="collasible-nav-dropdown"
-                  className="dropdown"
-                >
-                  <NavDropdown.Item href="/publications">
-                    List of All Publications
-                  </NavDropdown.Item>
-                </NavDropdown>
-              </div>
+              <HashLink smooth to="/#research" className="hashlink">
+                Research
+              </HashLink>
+              <HashLink smooth to="/#publications" className="hashlink">
+                Publications
+              </HashLink>
+              <HashLink smooth to="/#contact-me" className="hashlink">
+                Contact Me
+              </HashLink>
             </Nav>
             <Nav>
               <NavDropdown
-                title="All Research"
+                title="Research Topics"
                 id="collasible-nav-dropdown"
                 className="hashlink"
               >
                 <NavDropdown.Item href="/research-1">
-                  Research1
+                  Understanding of Local Structure on Global Scale
                 </NavDropdown.Item>
                 <NavDropdown.Item href="/research-2">
-                  Research2
+                  In situ Processing of Quantum Materials
                 </NavDropdown.Item>
                 <NavDropdown.Item href="/research-3">
-                  Research3
+                  Probing Local Properties
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/publications" className="hashlink">
+              <Nav.Link href="/publications" 
+              className="hashlink"
+              >
                 Publication List
               </Nav.Link>
-              <HashLink smooth to="/#contact-me" className="contact-me">
-                Contact Me
-              </HashLink>
+              
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -108,7 +65,7 @@ const NavBar = () => {
       <div
         className="p-5 text-center bg-image"
         style={{
-          backgroundImage:`url(${backgroundImage})`,
+          backgroundImage: `url(${backgroundImage})`,
           height: 400,
         }}
       >
@@ -116,10 +73,12 @@ const NavBar = () => {
           <div className="d-flex justify-content-center align-items-center h-100">
             <div className="text-white">
               <h1 className="mb-3">Quantum Microscopy and Spectroscopy</h1>
-              <h4 className="mb-3">Developing Structure-Processing-Properties in Quantum Materials</h4>
+              <h4 className="mb-3">
+                Developing Structure-Processing-Properties in Quantum Materials
+              </h4>
               <a
                 className="btn btn-outline-light btn-lg"
-                href = {Pdf}
+                href={Pdf}
                 role="button"
               >
                 Curriculum vitae
