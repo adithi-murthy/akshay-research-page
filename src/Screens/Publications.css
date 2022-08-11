@@ -1,9 +1,14 @@
 #allPublicationsButton {
   margin: 1% 0% 5% 60%;
 }
+.publicationImages {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 @media only screen and (max-width: 1060px) {
   #allPublicationsButton {
-    margin: 1% 0% 5% 35%
+    margin: 1% 0% 5% 35%;
   }
 }

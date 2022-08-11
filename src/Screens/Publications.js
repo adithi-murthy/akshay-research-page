@@ -53,7 +53,8 @@ const PublicationsText = (
             src={SIMS} id="TOF-SIMS"
             alt="..."
             fluid
-            style={styles.img}
+            // style={styles.img}
+            className = "publicationImages"
           />
         </MDBCol>
         <MDBCol md="8">
@@ -78,6 +79,7 @@ const PublicationsText = (
             src={DPC} id="DPC"
             alt="..."
             fluid
+            className = "publicationImages"
           />
         </MDBCol>
         <MDBCol md="8">
@@ -102,6 +104,7 @@ const PublicationsText = (
             src={sulfurdiffusion} id="sulfur_diffusion"
             alt="..."
             fluid
+            className = "publicationImages"
           />
         </MDBCol>
         <MDBCol md="8">
