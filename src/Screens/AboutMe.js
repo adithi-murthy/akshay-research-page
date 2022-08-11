@@ -45,11 +45,11 @@ const AboutMe = (
         DOWNLOAD CV
       </a>
       <h3 style={{ marginTop: "5%" }}>Latest Publications:</h3>
-      <a href={Publication1Link} className="link">
+      1. <a href={Publication1Link} className="link">
         {Publication1}
       </a>
       <br></br>
-      <a href={Publication2Link} className="link">
+      2. <a href={Publication2Link} className="link">
         {Publication2}
       </a>
     </p>
