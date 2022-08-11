@@ -119,7 +119,6 @@ const NavBar = () => {
               <h4 className="mb-3">Developing Structure-Processing-Properties in Quantum Materials</h4>
               <a
                 className="btn btn-outline-light btn-lg"
-                href="#!"
                 href = {Pdf}
                 role="button"
               >
