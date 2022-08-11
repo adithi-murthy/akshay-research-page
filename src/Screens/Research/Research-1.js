@@ -7,3 +7,4 @@ const Research1 = () => {
 };
 
 export default Research1;
+

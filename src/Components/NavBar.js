@@ -74,7 +74,7 @@ const NavBar = () => {
             <div className="text-white">
               <h1 className="mb-3">Quantum Microscopy and Spectroscopy</h1>
               <h4 className="mb-3">
-                Developing Structure-Processing-Properties in Quantum Materials
+                Developing Structure-Processing-Property Relationships in Quantum Materials
               </h4>
               <a
                 className="btn btn-outline-light btn-lg"

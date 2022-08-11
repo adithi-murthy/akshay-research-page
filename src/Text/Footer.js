@@ -10,7 +10,7 @@ const FooterText =
     <br/>
         Batavia, IL, 60510, USA
     <br/>
-        6308649222
+        630.864.9222
     <br/>
         amurthy@fnal.gov
 </div>

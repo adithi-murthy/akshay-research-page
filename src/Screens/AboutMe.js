@@ -27,7 +27,7 @@ const AboutMe = (
     <a
       className="btn btn-primary btn-floating m-1"
       style={{ backgroundColor: "#dd4b39" }}
-      href="https://scholar.google.com/citations?user=k7on3FAAAAAJ&hl=en"
+      href="mailto: amurthy@fnal.gov"
       role="button"
     >
       <MDBIcon far icon="envelope" />
