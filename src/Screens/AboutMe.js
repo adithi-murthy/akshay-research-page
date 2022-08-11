@@ -9,7 +9,8 @@ import {
   Publication2Link,
   CVLink,
 } from "../Text/AboutMe";
-import Pdf from '../assets/Murthy_CV.pdf';
+import Pdf from "../assets/Murthy_CV.pdf";
+import Google_Scholar_logo from "../assets/Google_Scholar_logo.svg.png";
 
 const AboutMe = (
   <div>
@@ -39,17 +40,22 @@ const AboutMe = (
     >
       <MDBIcon fab icon="twitter" />
     </a>
+    <a href="https://scholar.google.com/citations?user=k7on3FAAAAAJ&hl=en">
+      <img src={Google_Scholar_logo} alt="Google Scholar" height="38px" width="auto"></img>{" "}
+    </a>
     <p>{AboutMeText}</p>
     <p>
-      <a href = {Pdf} className="link" style={{ fontWeight: "bold" }}>
+      <a href={Pdf} className="link" style={{ fontWeight: "bold" }}>
         DOWNLOAD CV
       </a>
       <h3 style={{ marginTop: "5%" }}>Latest Publications:</h3>
-      1. <a href={Publication1Link} className="link">
+      1.{" "}
+      <a href={Publication1Link} className="link">
         {Publication1}
       </a>
       <br></br>
-      2. <a href={Publication2Link} className="link">
+      2.{" "}
+      <a href={Publication2Link} className="link">
         {Publication2}
       </a>
     </p>
