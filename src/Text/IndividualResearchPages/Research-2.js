@@ -1,5 +1,5 @@
 export const Research2Text =
-  "In situ Processing of Quantum Materials: A series of fabrication steps are needed to prepare quantum devices. Each of these steps can alter the structure and chemistry of the constituent materials. Through the use of in situ electron microscopy, I am interested in directly observing and understanding the impact of specific fabrication steps. This will be enabled through the use of various specialized sample holders as well as detectors that provide complementary structural and chemical information regarding the sample.";
+  "In situ Processing of Quantum Materials: A series of fabrication steps are needed to prepare quantum devices. Each of these steps can alter the structure and chemistry of the constituent materials. Through the use of in situ electron microscopy, I am interested in directly observing and understanding the impact of specific fabrication steps. This is possible through the use of various specialized sample holders as well as detectors that provide complementary structural and chemical information regarding the sample.";
 // const Research2Publications = () => {
 //     return (
 //       <div>
