@@ -13,10 +13,17 @@ import {
 import Figure1 from "../assets/Figure1.png";
 import Figure2 from "../assets/Figure2.png";
 import Figure3 from "../assets/Figure3.png";
-import { Research1, Research1Description, Research2, Research2Description, Research3, Research3Description } from "../Text/Research";
+import {
+  Research1,
+  Research1Description,
+  Research2,
+  Research2Description,
+  Research3,
+  Research3Description,
+} from "../Text/Research";
 const Research = (
   <>
-  <h1>Research</h1>
+    <h1>Research</h1>
     <MDBCardGroup>
       <MDBCard>
         <a href="/research-1">
@@ -25,11 +32,7 @@ const Research = (
             rippleTag="div"
             className="bg-image hover-overlay"
           >
-            <MDBCardImage
-              src={Figure1} id="Structure"
-              fluid
-              alt="..."
-            />
+            <MDBCardImage src={Figure1} id="Structure" fluid alt="..." />
             <a>
               <div
                 className="mask"
@@ -40,9 +43,7 @@ const Research = (
         </a>
         <MDBCardBody>
           <MDBCardTitle>{Research1}</MDBCardTitle>
-          <MDBCardText>
-            {Research1Description}
-          </MDBCardText>
+          <MDBCardText>{Research1Description}</MDBCardText>
           <MDBBtn href="/research-1">Read More</MDBBtn>
         </MDBCardBody>
         <MDBCardFooter>
@@ -58,7 +59,8 @@ const Research = (
             className="bg-image hover-overlay"
           >
             <MDBCardImage
-              src={Figure2} id="Processing"
+              src={Figure2}
+              id="Processing"
               fluid
               alt="..."
             />
@@ -72,9 +74,7 @@ const Research = (
         </a>
         <MDBCardBody>
           <MDBCardTitle>{Research2}</MDBCardTitle>
-          <MDBCardText>
-            {Research2Description}
-          </MDBCardText>
+          <MDBCardText>{Research2Description}</MDBCardText>
           <MDBBtn href="/research-2">Read More</MDBBtn>
         </MDBCardBody>
         <MDBCardFooter>
@@ -90,7 +90,8 @@ const Research = (
           >
             <MDBCardImage
               href="/research-3"
-              src={Figure3} id="Properties"
+              src={Figure3}
+              id="Properties"
               fluid
               alt="..."
             />
@@ -102,9 +103,7 @@ const Research = (
         </a>
         <MDBCardBody>
           <MDBCardTitle>{Research3}</MDBCardTitle>
-          <MDBCardText>
-            {Research3Description}
-          </MDBCardText>
+          <MDBCardText>{Research3Description}</MDBCardText>
           <MDBBtn href="/research-3">Read More</MDBBtn>
         </MDBCardBody>
         <MDBCardFooter>
