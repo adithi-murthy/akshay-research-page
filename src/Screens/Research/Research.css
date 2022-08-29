@@ -15,11 +15,29 @@
   max-width: 50%;
 }
 
+#research2Figure {
+  margin: 5% 5% 5% 0%;
+  height: auto;
+  max-width: 50%;
+}
+
+#research2Text {
+  margin: 5% 5% 0% 5%;
+  height: auto;
+  max-width: 50%;
+}
+
 @media only screen and (max-width: 1060px) {
   #research1Figure {
     max-width: 100%;
   }
   #research1Text {
+    max-width: 100%;
+  }
+  #research2Figure {
+    max-width: 100%;
+  }
+  #research2Text {
     max-width: 100%;
   }
   .researchDiv {
