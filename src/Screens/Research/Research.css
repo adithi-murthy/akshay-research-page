@@ -1,0 +1,28 @@
+.researchDiv {
+  display: flex;
+  align-items: flex-start;
+}
+
+#research1Figure {
+  margin: 5% 5% 5% 15%;
+  height: auto;
+  max-width: 50%;
+}
+
+#research1Text {
+  margin: 5% 5% 0% 15%;
+  height: auto;
+  max-width: 50%;
+}
+
+@media only screen and (max-width: 1060px) {
+  #research1Figure {
+    max-width: 100%;
+  }
+  #research1Text {
+    max-width: 100%;
+  }
+  .researchDiv {
+    display: block;
+  }
+}
