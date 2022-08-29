@@ -9,8 +9,18 @@ import {
   MDBCol,
   MDBBtn,
 } from "mdb-react-ui-kit";
-import { Publication1, Publication1Description, Publication1Link, Publication2, Publication2Description, Publication2Link, Publication3, Publication3Description, Publication3Link} from "../Text/Publications";
-import './Publications.css'
+import {
+  Publication1,
+  Publication1Description,
+  Publication1Link,
+  Publication2,
+  Publication2Description,
+  Publication2Link,
+  Publication3,
+  Publication3Description,
+  Publication3Link,
+} from "../Text/Publications";
+import "./Publications.css";
 import SIMS from "../assets/publication_images/SIMS.png";
 import DPC from "../assets/publication_images/DPC.png";
 import sulfurdiffusion from "../assets/publication_images/sulfurdiffusion.png";
@@ -20,8 +30,8 @@ const styles = {
     marginBottom: "3%",
     maxWidth: "1000px",
   },
-  img:{
-    margin: "0% 0% 0% 0%"
+  img: {
+    margin: "0% 0% 0% 0%",
   },
   button: {
     margin: "1% 0% 5% 60%",
@@ -49,24 +59,22 @@ const PublicationsText = (
     <MDBCard style={styles.card}>
       <MDBRow className="g-0">
         <MDBCol md="4">
-          <MDBCardImage 
-            src={SIMS} id="TOF-SIMS"
+          <MDBCardImage
+            src={SIMS}
+            id="TOF-SIMS"
             alt="..."
             fluid
             // style={styles.img}
-            className = "publicationImages"
+            className="publicationImages"
           />
         </MDBCol>
         <MDBCol md="8">
           <MDBCardBody>
             <MDBCardTitle>{Publication1}</MDBCardTitle>
-            <MDBCardText>
-              {Publication1Description}
-            </MDBCardText>
-            <MDBCardText>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </MDBCardText>
-            <a href={Publication1Link} className="link">Read the publication here</a>
+            <MDBCardText>{Publication1Description}</MDBCardText>
+            <a href={Publication1Link} className="link">
+              Read the publication here
+            </a>
           </MDBCardBody>
         </MDBCol>
       </MDBRow>
@@ -76,22 +84,20 @@ const PublicationsText = (
       <MDBRow className="g-0">
         <MDBCol md="4">
           <MDBCardImage
-            src={DPC} id="DPC"
+            src={DPC}
+            id="DPC"
             alt="..."
             fluid
-            className = "publicationImages"
+            className="publicationImages"
           />
         </MDBCol>
         <MDBCol md="8">
           <MDBCardBody>
             <MDBCardTitle>{Publication2}</MDBCardTitle>
-            <MDBCardText>
-              {Publication2Description}
-            </MDBCardText>
-            <MDBCardText>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </MDBCardText>
-            <a href={Publication2Link} className="link">Read the publication here</a>
+            <MDBCardText>{Publication2Description}</MDBCardText>
+            <a href={Publication2Link} className="link">
+              Read the publication here
+            </a>
           </MDBCardBody>
         </MDBCol>
       </MDBRow>
@@ -101,22 +107,20 @@ const PublicationsText = (
       <MDBRow className="g-0">
         <MDBCol md="4">
           <MDBCardImage
-            src={sulfurdiffusion} id="sulfur_diffusion"
+            src={sulfurdiffusion}
+            id="sulfur_diffusion"
             alt="..."
             fluid
-            className = "publicationImages"
+            className="publicationImages"
           />
         </MDBCol>
         <MDBCol md="8">
           <MDBCardBody>
             <MDBCardTitle>{Publication3}</MDBCardTitle>
-            <MDBCardText>
-              {Publication3Description}
-            </MDBCardText>
-            <MDBCardText>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </MDBCardText>
-            <a href={Publication3Link} className="link">Read the publication here</a>
+            <MDBCardText>{Publication3Description}</MDBCardText>
+            <a href={Publication3Link} className="link">
+              Read the publication here
+            </a>
           </MDBCardBody>
         </MDBCol>
       </MDBRow>

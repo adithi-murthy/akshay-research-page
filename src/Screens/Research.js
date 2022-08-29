@@ -46,9 +46,6 @@ const Research = (
           <MDBCardText>{Research1Description}</MDBCardText>
           <MDBBtn href="/research-1">Read More</MDBBtn>
         </MDBCardBody>
-        <MDBCardFooter>
-          <small className="text-muted">Last updated 30 mins ago</small>
-        </MDBCardFooter>
       </MDBCard>
 
       <MDBCard>
@@ -77,9 +74,6 @@ const Research = (
           <MDBCardText>{Research2Description}</MDBCardText>
           <MDBBtn href="/research-2">Read More</MDBBtn>
         </MDBCardBody>
-        <MDBCardFooter>
-          <small className="text-muted">Last updated 30 mins ago</small>
-        </MDBCardFooter>
       </MDBCard>
       <MDBCard>
         <a href="/research-3">
@@ -106,9 +100,6 @@ const Research = (
           <MDBCardText>{Research3Description}</MDBCardText>
           <MDBBtn href="/research-3">Read More</MDBBtn>
         </MDBCardBody>
-        <MDBCardFooter>
-          <small className="text-muted">Last updated 30 mins ago</small>
-        </MDBCardFooter>
       </MDBCard>
     </MDBCardGroup>
   </>
