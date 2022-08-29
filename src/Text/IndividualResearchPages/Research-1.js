@@ -34,16 +34,6 @@ const Research1Publication1 = (
   </div>
 );
 
-const Research1Publication19 = (
-  <div>
-    <b>Murthy, A. A.</b>; Das, P. M.; Ribet, S. M.; Kopas, C.; Lee, J.; Reagor,
-    M. J.; Zhou, L.; Kramer, M. J.; Hersam, M. C.; Checchin, M.; Grassellino,
-    A.; dos Reis, R.; Dravid, V. P.; Romanenko, A., Developing a Chemical and
-    Structural Understanding of the Surface Oxide in a Niobium Superconducting
-    Qubit. <i>arXiv preprint arXiv:2203.08710</i>, <b>2022</b>
-  </div>
-);
-
 const Research1Publication2 = (
   <div>
     <b>Murthy, A. A.</b>; Lee, J.; Kopas, C.; Reagor, M. J.; McFadden, A. P.;

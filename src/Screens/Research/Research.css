@@ -10,13 +10,13 @@
 }
 
 #research1Text {
-  margin: 5% 5% 0% 15%;
+  margin: 5% 5% 0% 5%;
   height: auto;
   max-width: 50%;
 }
 
 #research2Figure {
-  margin: 5% 5% 5% 0%;
+  margin: 5% 0% 0% 5%;
   height: auto;
   max-width: 50%;
 }
@@ -25,6 +25,22 @@
   margin: 5% 5% 0% 5%;
   height: auto;
   max-width: 50%;
+}
+
+#research3Figure {
+  margin: 5% 5% 5% 10%;
+  height: auto;
+  max-width: 50%;
+}
+
+#research3Text {
+  margin: 5% 5% 0% 5%;
+  height: auto;
+  max-width: 50%;
+}
+
+.relatedPublications {
+    margin: 2.5% 5% 0% 5%;
 }
 
 @media only screen and (max-width: 1060px) {
@@ -36,8 +52,15 @@
   }
   #research2Figure {
     max-width: 100%;
+    margin: 5% 5% 0% 0%;
   }
   #research2Text {
+    max-width: 100%;
+  }
+  #research3Figure {
+    max-width: 100%;
+  }
+  #research3Text {
     max-width: 100%;
   }
   .researchDiv {
