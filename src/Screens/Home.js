@@ -9,42 +9,42 @@ import Research from "./Research";
 import PublicationsText from "./Publications";
 import "./Home.css";
 
-const styles = {
-  overallDiv: {
-    display: "flex",
-    alignItems: "flex-start",
-  },
-  aboutMeImg: {
-    margin: "5% 0% 5% 15%",
-  },
-  aboutMeText: {
-    margin: "5% 5% 0% 5%",
-  },
-  educationImg: {
-    margin: "5% 0% 0% 5%",
-  },
-  educationText: {
-    margin: "5% 5% 0% 0%",
-  },
-  timelineImg: {
-    height: "200px",
-    width: "auto",
-    margin: "5% 0% 0% 0%",
-  },
-  exampleTimeline: {
-    height: "300px",
-    width: "auto",
-    margin: "5% 0% 0% -15%",
-  },
-  publications: {
-    margin: "5% 0% 0% 15%",
-  },
-};
+// const styles = {
+//   overallDiv: {
+//     display: "flex",
+//     alignItems: "flex-start",
+//   },
+//   aboutMeImg: {
+//     margin: "5% 0% 5% 15%",
+//   },
+//   aboutMeText: {
+//     margin: "5% 5% 0% 5%",
+//   },
+//   educationImg: {
+//     margin: "5% 0% 0% 5%",
+//   },
+//   educationText: {
+//     margin: "5% 5% 0% 0%",
+//   },
+//   timelineImg: {
+//     height: "200px",
+//     width: "auto",
+//     margin: "5% 0% 0% 0%",
+//   },
+//   exampleTimeline: {
+//     height: "300px",
+//     width: "auto",
+//     margin: "5% 0% 0% -15%",
+//   },
+//   publications: {
+//     margin: "5% 0% 0% 15%",
+//   },
+// };
 const Home = () => {
   return (
     <div>
       <a id="about-me"></a>
-      <div className="overallDiv">
+      <div className="aboutMeDiv">
         <img src={picture} alt="Me" id="aboutMeImg" />
         <div id="aboutMeText">{AboutMe}</div>
       </div>
