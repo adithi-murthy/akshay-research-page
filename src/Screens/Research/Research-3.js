@@ -3,7 +3,6 @@ import { Research3Text } from "../../Text/IndividualResearchPages/Research-3";
 import Research3Figure from "../../assets/Figure3.png";
 import { Research3Publication1, Research3Publication2 } from "../../Text/IndividualResearchPages/Research-3";
 
-const styles = {};
 const Research3 = () => {
   return (
     <div>

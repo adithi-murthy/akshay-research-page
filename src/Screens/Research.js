@@ -5,7 +5,6 @@ import {
   MDBCardBody,
   MDBCardTitle,
   MDBCardText,
-  MDBCardFooter,
   MDBCardGroup,
   MDBBtn,
   MDBRipple,
