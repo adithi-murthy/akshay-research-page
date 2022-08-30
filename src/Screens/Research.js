@@ -20,18 +20,25 @@ import {
   Research3,
   Research3Description,
 } from "../Text/Research";
+import "./Research.css";
 const Research = (
   <>
     <h1>Research</h1>
-    <MDBCardGroup>
-      <MDBCard>
+    <MDBCardGroup id="researchID">
+      <MDBCard style={{ margin: "0% 2% 0% 0%" }}>
         <a href="/research-1">
           <MDBRipple
             rippleColor="light"
             rippleTag="div"
             className="bg-image hover-overlay"
+            style={{ display: "block" }}
           >
-            <MDBCardImage src={Figure1} id="Structure" fluid alt="..." />
+            <MDBCardImage
+              src={Figure1}
+              fluid
+              alt="Structure"
+              className="researchCardImage"
+            />
             <a>
               <div
                 className="mask"
@@ -47,18 +54,19 @@ const Research = (
         </MDBCardBody>
       </MDBCard>
 
-      <MDBCard>
+      <MDBCard style={{ margin: "0% 2% 0% 0%" }}>
         <a href="/research-2">
           <MDBRipple
             rippleColor="light"
             rippleTag="div"
             className="bg-image hover-overlay"
+            style={{ display: "block" }}
           >
             <MDBCardImage
               src={Figure2}
-              id="Processing"
               fluid
-              alt="..."
+              alt="Processing"
+              className="researchCardImage"
             />
             <a>
               <div
@@ -74,19 +82,20 @@ const Research = (
           <MDBBtn href="/research-2">Read More</MDBBtn>
         </MDBCardBody>
       </MDBCard>
-      <MDBCard>
+      <MDBCard style={{ margin: "0% 2% 0% 0%" }}>
         <a href="/research-3">
           <MDBRipple
             rippleColor="light"
             rippleTag="div"
             className="bg-image hover-overlay"
+            style={{ display: "block" }}
           >
             <MDBCardImage
               href="/research-3"
               src={Figure3}
-              id="Properties"
               fluid
-              alt="..."
+              alt="Properties"
+              className="researchCardImage"
             />
             <div
               className="mask"
