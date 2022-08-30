@@ -15,9 +15,9 @@ function App() {
       <div>
         <NavBar />
         <Switch>
-          <Route path="/research-1" component={Research1} />
-          <Route path="/research-2" component={Research2} />
-          <Route path="/research-3" component={Research3} />
+          <Route path="/understanding-of-local-structure-on-global-scale" component={Research1} />
+          <Route path="/in-situ-processing-of-quantum-materials" component={Research2} />
+          <Route path="/probing-local-properties" component={Research3} />
           <Route path="/publications" component={Publications} />
           <Route path="/" component={Home} />
         </Switch>

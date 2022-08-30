@@ -27,7 +27,7 @@ const Research = (
     <h1 style={{ textAlign: "center", marginBottom: "2%" }}>Research</h1>
     <MDBCardGroup id="researchID">
       <MDBCard style={{ margin: "0% 2% 5% 2%" }}>
-        <a href="/research-1">
+        <a href="/understanding-of-local-structure-on-global-scale">
           <MDBRipple
             rippleColor="light"
             rippleTag="div"
@@ -52,7 +52,7 @@ const Research = (
           <MDBCardTitle>{Research1}</MDBCardTitle>
           <MDBCardText>{Research1Description}</MDBCardText>
           <MDBCardFooter>
-            <MDBBtn href="/research-1" id="readMoreButton">
+            <MDBBtn href="/understanding-of-local-structure-on-global-scale" id="readMoreButton">
               Read More
             </MDBBtn>
           </MDBCardFooter>
@@ -60,7 +60,7 @@ const Research = (
       </MDBCard>
 
       <MDBCard style={{ margin: "0% 2% 5% 0%" }}>
-        <a href="/research-2">
+        <a href="/in-situ-processing-of-quantum-materials">
           <MDBRipple
             rippleColor="light"
             rippleTag="div"
@@ -85,14 +85,14 @@ const Research = (
           <MDBCardTitle>{Research2}</MDBCardTitle>
           <MDBCardText>{Research2Description}</MDBCardText>
           <MDBCardFooter>
-            <MDBBtn href="/research-2" id="readMoreButton">
+            <MDBBtn href="/in-situ-processing-of-quantum-materials" id="readMoreButton">
               Read More
             </MDBBtn>
           </MDBCardFooter>
         </MDBCardBody>
       </MDBCard>
       <MDBCard style={{ margin: "0% 2% 5% 0%" }}>
-        <a href="/research-3">
+        <a href="/probing-local-properties">
           <MDBRipple
             rippleColor="light"
             rippleTag="div"
@@ -100,7 +100,7 @@ const Research = (
             style={{ display: "block" }}
           >
             <MDBCardImage
-              href="/research-3"
+              href="/probing-local-properties"
               src={Figure3}
               alt="Properties"
               id="propertiesImg"
@@ -116,7 +116,7 @@ const Research = (
           <MDBCardTitle>{Research3}</MDBCardTitle>
           <MDBCardText id="propertiesText">{Research3Description}</MDBCardText>
           <MDBCardFooter>
-            <MDBBtn href="/research-3" id="readMoreButton">
+            <MDBBtn href="/probing-local-properties" id="readMoreButton">
               Read More
             </MDBBtn>
           </MDBCardFooter>

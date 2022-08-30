@@ -41,13 +41,13 @@ const NavBar = () => {
                 id="collasible-nav-dropdown"
                 className="hashlink"
               >
-                <NavDropdown.Item href="/research-1">
+                <NavDropdown.Item href="/understanding-of-local-structure-on-global-scale">
                   Understanding of Local Structure on Global Scale
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/research-2">
+                <NavDropdown.Item href="/in-situ-processing-of-quantum-materials">
                   In situ Processing of Quantum Materials
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/research-3">
+                <NavDropdown.Item href="/probing-local-properties">
                   Probing Local Properties
                 </NavDropdown.Item>
               </NavDropdown>
