@@ -4,12 +4,33 @@
   margin-right: auto;
   max-width: 100%;
 }
+#structureImg {
+  max-width: 75%;
+}
+#processingImg {
+  margin: 25% 0% 18% 0%;
+}
+#propertiesText{
+    margin-bottom: 17%
+}
+
+#researchID {
+    margin-bottom: 5%;
+}
 
 @media only screen and (max-width: 1060px) {
   #researchID {
     display: block;
   }
-  .researchCardImage{
+  #structureImg,
+  #propertiesImg {
     max-width: 60%;
+  }
+  #processingImg {
+    margin: 0% auto 0% auto;
+    max-width: 80%;
+  }
+  #propertiesText{
+    margin-bottom: 5%;
   }
 }

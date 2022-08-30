@@ -6,6 +6,7 @@ import {
   MDBCardTitle,
   MDBCardText,
   MDBCardGroup,
+  MDBCardFooter,
   MDBBtn,
   MDBRipple,
 } from "mdb-react-ui-kit";
@@ -23,9 +24,9 @@ import {
 import "./Research.css";
 const Research = (
   <>
-    <h1>Research</h1>
+    <h1 style={{ textAlign: "center", marginBottom: "2%" }}>Research</h1>
     <MDBCardGroup id="researchID">
-      <MDBCard style={{ margin: "0% 2% 0% 0%" }}>
+      <MDBCard style={{ margin: "0% 2% 5% 2%" }}>
         <a href="/research-1">
           <MDBRipple
             rippleColor="light"
@@ -35,9 +36,9 @@ const Research = (
           >
             <MDBCardImage
               src={Figure1}
-              fluid
               alt="Structure"
               className="researchCardImage"
+              id="structureImg"
             />
             <a>
               <div
@@ -47,14 +48,18 @@ const Research = (
             </a>
           </MDBRipple>
         </a>
-        <MDBCardBody>
+        <MDBCardBody style={{ textAlign: "center" }}>
           <MDBCardTitle>{Research1}</MDBCardTitle>
           <MDBCardText>{Research1Description}</MDBCardText>
-          <MDBBtn href="/research-1">Read More</MDBBtn>
+          <MDBCardFooter>
+            <MDBBtn href="/research-1" id="readMoreButton">
+              Read More
+            </MDBBtn>
+          </MDBCardFooter>
         </MDBCardBody>
       </MDBCard>
 
-      <MDBCard style={{ margin: "0% 2% 0% 0%" }}>
+      <MDBCard style={{ margin: "0% 2% 5% 0%" }}>
         <a href="/research-2">
           <MDBRipple
             rippleColor="light"
@@ -64,9 +69,9 @@ const Research = (
           >
             <MDBCardImage
               src={Figure2}
-              fluid
               alt="Processing"
               className="researchCardImage"
+              id="processingImg"
             />
             <a>
               <div
@@ -76,13 +81,17 @@ const Research = (
             </a>
           </MDBRipple>
         </a>
-        <MDBCardBody>
+        <MDBCardBody style={{ textAlign: "center" }}>
           <MDBCardTitle>{Research2}</MDBCardTitle>
           <MDBCardText>{Research2Description}</MDBCardText>
-          <MDBBtn href="/research-2">Read More</MDBBtn>
+          <MDBCardFooter>
+            <MDBBtn href="/research-2" id="readMoreButton">
+              Read More
+            </MDBBtn>
+          </MDBCardFooter>
         </MDBCardBody>
       </MDBCard>
-      <MDBCard style={{ margin: "0% 2% 0% 0%" }}>
+      <MDBCard style={{ margin: "0% 2% 5% 0%" }}>
         <a href="/research-3">
           <MDBRipple
             rippleColor="light"
@@ -93,8 +102,8 @@ const Research = (
             <MDBCardImage
               href="/research-3"
               src={Figure3}
-              fluid
               alt="Properties"
+              id="propertiesImg"
               className="researchCardImage"
             />
             <div
@@ -103,10 +112,14 @@ const Research = (
             ></div>
           </MDBRipple>
         </a>
-        <MDBCardBody>
+        <MDBCardBody style={{ textAlign: "center" }}>
           <MDBCardTitle>{Research3}</MDBCardTitle>
-          <MDBCardText>{Research3Description}</MDBCardText>
-          <MDBBtn href="/research-3">Read More</MDBBtn>
+          <MDBCardText id="propertiesText">{Research3Description}</MDBCardText>
+          <MDBCardFooter>
+            <MDBBtn href="/research-3" id="readMoreButton">
+              Read More
+            </MDBBtn>
+          </MDBCardFooter>
         </MDBCardBody>
       </MDBCard>
     </MDBCardGroup>
