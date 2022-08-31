@@ -44,8 +44,8 @@ const styles = {
 
 const PublicationsText = (
   <div>
-    <div style={styles.divvy}>
-      <h1>Publications</h1>
+    <div className="publicationsDiv">
+      <h1><u>Publications</u></h1>
       <MDBBtn
         className=""
         color="dark"
