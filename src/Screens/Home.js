@@ -62,7 +62,9 @@ const Home = () => {
       <div>
         <div>{Research}</div>
       </div>
-      <div id="publications" style={{marginBottom: "7%"}}></div>
+      <div id="publications" 
+      // style={{marginBottom: "7%"}}
+      ></div>
       <div>
         {/* <br></br>
         <br></br>
