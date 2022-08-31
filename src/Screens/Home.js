@@ -62,8 +62,13 @@ const Home = () => {
       <div>
         <div>{Research}</div>
       </div>
-      <div id="publications"></div>
-      <div className="publicationsDivHome">{PublicationsText}</div>
+      <div id="publications" style={{marginBottom: "7%"}}></div>
+      <div>
+        {/* <br></br>
+        <br></br>
+        <br></br> */}
+        <div className="publicationsDivHome">{PublicationsText}</div>
+      </div>
     </div>
   );
 };
