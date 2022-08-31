@@ -1,0 +1,35 @@
+#footerContainer {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 10%;
+}
+#SQMSImg {
+  margin: 0% 0% 0% 5%;
+  height: auto;
+  max-width: 20%;
+}
+#footerText {
+  text-align: center;
+  margin: 0% 5% 0% 0%;
+}
+#fermiImg {
+  /* margin: 2% 10% 0% 10%; */
+  height: auto;
+  max-width: 25%;
+}
+
+@media only screen and (max-width: 1060px) {
+    #footerContainer{
+        /* display: block; */
+        margin-left: 15%;
+    }
+    #SQMSImg{
+        max-width: 60%;
+        margin: 2% 5% 2% 0%;
+    }
+    #fermiImg {
+        margin: 3% 2% 0% 0%;
+        max-width: 50%;
+    }
+}

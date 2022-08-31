@@ -1,33 +1,35 @@
-import React from "react"
-import sqms from "../assets/SQMS_logo.png";
+import React from "react";
+import sqms from "../assets/SQMS_logo copy.png";
 import fermi from "../assets/FNAL_logo.png";
 
-import {Nav, Navbar, NavDropdown, Container} from "react-bootstrap";
-import { HashLink } from "react-router-hash-link";
+import { Navbar, Container } from "react-bootstrap";
 import FooterText from "../Text/Footer";
+import "./Footer.css";
 
 const styles = {
-    overallDiv: {
-        display:'flex',
-        alignItems: 'flex-start',
-        color: 'white',
-    },
-}
+  // overallDiv: {
+  //     display:'flex',
+  //     alignItems: 'flex-start',
+  //     color: 'white',
+  // },
+};
 
 const Footer = () => {
-    return (
-        <div id='contact-me'>
-        <Navbar sticky="bottom" expand="lg" bg="dark" variant="dark">
-        <Container style={styles.overallDiv}>
-            <img src={sqms} alt="Me" id="aboutMeImg" />            
-            <p style={styles.footerText}>
-                {FooterText}
-            </p>
-            <img src={fermi} alt="Me" id="aboutMeImg" />            
+  return (
+    <div id="contact-me">
+      <Navbar sticky="bottom" expand="lg" bg="dark" variant="dark">
+        <Container id="footerContainer">
+          <img src={sqms} alt="Me" id="SQMSImg" />
+          <p
+          id="footerText"
+          >
+            {FooterText}
+          </p>
+          <img src={fermi} alt="Me" id="fermiImg" />
         </Container>
       </Navbar>
-      </div>
-    )
-}
+    </div>
+  );
+};
 
 export default Footer;
