@@ -48,8 +48,10 @@ const Home = () => {
         <img src={picture} alt="Me" id="aboutMeImg" />
         <div id="aboutMeText">{AboutMe}</div>
       </div>
-      <div id="education" style={{ marginBottom: "5%" }}></div>
-      <h1 style={{ margin: "0% 0% 0% 15%" }}>Education</h1>
+      <div id="education"></div>
+      <h1 className="headers">
+        <u>Education</u>
+      </h1>
       <div className="overallDiv">
         <div>
           <img src={exampleTimeline} id="exampleTimeline" />
@@ -58,11 +60,10 @@ const Home = () => {
       </div>
       <div id="research"></div>
       <div>
-        <div style={{ marginTop: "5%" }}>{Research}</div>
+        <div>{Research}</div>
       </div>
-      <div id="publications" className="overallDiv">
-        <div id="publications">{PublicationsText}</div>
-      </div>
+      <div id="publications"></div>
+      <div className="publicationsDivHome">{PublicationsText}</div>
     </div>
   );
 };

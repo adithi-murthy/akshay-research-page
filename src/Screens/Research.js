@@ -24,7 +24,9 @@ import {
 import "./Research.css";
 const Research = (
   <>
-    <h1 style={{ textAlign: "center", marginBottom: "2%" }}>Research</h1>
+    <h1 className="headers">
+      <u>Research</u>
+    </h1>
     <MDBCardGroup id="researchID">
       <MDBCard style={{ margin: "0% 2% 5% 2%" }}>
         <a href="/understanding-of-local-structure-on-global-scale">
@@ -52,7 +54,10 @@ const Research = (
           <MDBCardTitle>{Research1}</MDBCardTitle>
           <MDBCardText>{Research1Description}</MDBCardText>
           <MDBCardFooter>
-            <MDBBtn href="/understanding-of-local-structure-on-global-scale" id="readMoreButton">
+            <MDBBtn
+              href="/understanding-of-local-structure-on-global-scale"
+              id="readMoreButton"
+            >
               Read More
             </MDBBtn>
           </MDBCardFooter>
@@ -85,7 +90,10 @@ const Research = (
           <MDBCardTitle>{Research2}</MDBCardTitle>
           <MDBCardText>{Research2Description}</MDBCardText>
           <MDBCardFooter>
-            <MDBBtn href="/in-situ-processing-of-quantum-materials" id="readMoreButton">
+            <MDBBtn
+              href="/in-situ-processing-of-quantum-materials"
+              id="readMoreButton"
+            >
               Read More
             </MDBBtn>
           </MDBCardFooter>

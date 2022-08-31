@@ -45,7 +45,9 @@ const styles = {
 const PublicationsText = (
   <div>
     <div className="publicationsDiv">
-      <h1><u>Publications</u></h1>
+      <h1 
+      // className="headers"
+      ><u>Publications</u></h1>
       <MDBBtn
         className=""
         color="dark"
