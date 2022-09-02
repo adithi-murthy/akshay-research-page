@@ -40,15 +40,23 @@ const AboutMe = (
     >
       <MDBIcon fab icon="twitter" />
     </a>
-    <a href="https://scholar.google.com/citations?user=k7on3FAAAAAJ&hl=en">
-      <img src={Google_Scholar_logo} alt="Google Scholar" height="38px" width="auto"></img>{" "}
-    </a>
     <p>{AboutMeText}</p>
     <p>
       <a href={Pdf} className="link" style={{ fontWeight: "bold" }}>
         DOWNLOAD CV
       </a>
-      <h3 style={{ marginTop: "5%" }}>Latest Publications:</h3>
+      <h3 style={{ marginTop: "5%" }}>
+        Latest Publications:
+        <a href="https://scholar.google.com/citations?user=k7on3FAAAAAJ&hl=en">
+          <img
+            src={Google_Scholar_logo}
+            alt="Google Scholar"
+            height="38px"
+            width="auto"
+            id="googleScholarLogo"
+          ></img>
+        </a>
+      </h3>
       1.{" "}
       <a href={Publication1Link} className="link">
         {Publication1}
