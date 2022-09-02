@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import picture from "../assets/person.jpeg";
 import NWLogo from "../assets/Northwestern-logo.jpeg";
 import UIUCLogo from "../assets/Illinois-logo.jpg";
@@ -8,8 +8,16 @@ import Research from "./Research";
 import PublicationsText from "./Publications";
 import "./Home.css";
 import { logDOM } from "@testing-library/react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Home = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
+
   return (
     <div>
       <a id="about-me"></a>
@@ -18,24 +26,32 @@ const Home = () => {
         <div id="aboutMeText">{AboutMe}</div>
       </div>
       <div id="education"></div>
-      <h1 className="headers">
-        <u>Education</u>
-      </h1>
-      <div className="overallDiv">
-        <img src={NWLogo} alt="Northwestern-Logo" id="NWImg" />
-        <div id="NWText">{NorthwesternEducation}</div>
+      <div data-aos="fade-right">
+        <h1 className="headers">
+          <u>Education</u>
+        </h1>
+        <div className="overallDiv">
+          <img src={NWLogo} alt="Northwestern-Logo" id="NWImg" />
+          <div id="NWText">{NorthwesternEducation}</div>
+        </div>
       </div>
-      <div className="overallDiv">
-        <img src={UIUCLogo} alt="UIUC-Logo" id="UIUCImg" />
-        <div id="UIUCText">{UIUCEducation}</div>
+      <div data-aos="fade-left">
+        <div className="overallDiv">
+          <img src={UIUCLogo} alt="UIUC-Logo" id="UIUCImg" />
+          <div id="UIUCText">{UIUCEducation}</div>
+        </div>
       </div>
       <div id="research"></div>
-      <div>
-        <div>{Research}</div>
+      <div data-aos="fade-right">
+        <div>
+          <div>{Research}</div>
+        </div>
       </div>
       <div id="publications"></div>
-      <div>
-        <div className="publicationsDivHome">{PublicationsText}</div>
+      <div data-aos="fade-up-left">
+        <div>
+          <div className="publicationsDivHome">{PublicationsText}</div>
+        </div>
       </div>
     </div>
   );
