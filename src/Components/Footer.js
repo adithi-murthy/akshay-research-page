@@ -6,14 +6,6 @@ import { Navbar, Container } from "react-bootstrap";
 import FooterText from "../Text/Footer";
 import "./Footer.css";
 
-const styles = {
-  // overallDiv: {
-  //     display:'flex',
-  //     alignItems: 'flex-start',
-  //     color: 'white',
-  // },
-};
-
 const Footer = () => {
   return (
     <div id="contact-me">

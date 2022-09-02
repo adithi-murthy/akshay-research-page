@@ -33,18 +33,4 @@ const Research2Publication2 = (
   </div>
 );
 
-// const Research2Publications = () => {
-//     return (
-//       <div>
-//         <h1>Selected Publications</h1>
-//         <ol>
-//           <li><b>Murthy, A. A.</b>; Stanev, T. K.; Ribet, S. M.; Watanabe, K.; Taniguchi, T.; Stern, N. P.; dos Reis, R.; Dravid, V. P., Spatial Mapping of Electrostatic Fields across 2D Heterostructures. <i>Nano Lett.</i> 21 (17), <b>2021</b>, 7131-7137</li>
-//           <li><b>Murthy, A. A.</b>; Stanev, T. K.; dos Reis, R.; Hao, S.; Wolverton, C.;  Stern, N. P.; Dravid, V. P., Direct Visualization of Electric Field induced Structural Dynamics in Monolayer Transition Metal Dichalcogenides. <i>ACS Nano</i>, 14 (2), <b>2020</b>, 1569-1576</li>
-//         </ol>
-//       </div>
-//     );
-//   };
-
-//   export const Research2Publications;
-
 export { Research2Text, Research2Publication1, Research2Publication2 };

@@ -46,7 +46,6 @@ const PublicationsText = (
   <div>
     <div className="publicationsDiv">
       <h1 
-      // className="headers"
       ><u>Publications</u></h1>
       <MDBBtn
         className=""

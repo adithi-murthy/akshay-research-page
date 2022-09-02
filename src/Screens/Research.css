@@ -10,13 +10,9 @@
 #processingImg {
   margin: 25% 0% 18% 0%;
 }
-#propertiesText{
-    margin-bottom: 17%
+#propertiesText {
+  margin-bottom: 17%;
 }
-
-/* #researchID { */
-    /* margin-bottom: 5%; */
-/* } */
 
 @media only screen and (max-width: 1060px) {
   #researchID {
@@ -30,7 +26,7 @@
     margin: 0% auto 0% auto;
     max-width: 80%;
   }
-  #propertiesText{
+  #propertiesText {
     margin-bottom: 5%;
   }
 }

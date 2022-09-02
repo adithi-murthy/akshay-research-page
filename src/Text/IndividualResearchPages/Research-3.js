@@ -38,16 +38,4 @@ const Research3Publication2 = (
   </div>
 );
 
-// const Research3Publications = () => {
-//     return (
-//       <div>
-//         <h1>Selected Publications</h1>
-//         <ol>
-//           <li><b>Murthy, A. A.</b>; Stanev, T. K.; Ribet, S. M.; Watanabe, K.; Taniguchi, T.; Stern, N. P.; dos Reis, R.; Dravid, V. P., Spatial Mapping of Electrostatic Fields across 2D Heterostructures. <i>Nano Lett.</i> 21 (17), <b>2021</b>, 7131-7137</li>
-//           <li><b>Murthy, A. A.</b>*; Yasaei, P.*; Xu, Y.; dos Reis, R.; Shekhawat, G. S.; Dravid, V. P., Spatial Mapping of Hot-Spots across Interfaces in Monolayer Transition Metal Dichalcogenides, <i>Adv. Mater.</i>, <b>2019</b>, 31, 1808244</li>
-//         </ol>
-//       </div>
-//     );
-//   };
-
 export { Research3Text, Research3Publication1, Research3Publication2 };
