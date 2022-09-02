@@ -2,8 +2,6 @@ import React from "react";
 import picture from "../assets/person.jpeg";
 import NWLogo from "../assets/Northwestern-logo.jpeg";
 import UIUCLogo from "../assets/Illinois-logo.jpg";
-import universities from "../assets/universities.jpg";
-import timeline from "../assets/timeline.png";
 import AboutMe from "./AboutMe";
 import { NorthwesternEducation, UIUCEducation } from "../Text/Education";
 import Research from "./Research";
@@ -11,37 +9,6 @@ import PublicationsText from "./Publications";
 import "./Home.css";
 import { logDOM } from "@testing-library/react";
 
-// const styles = {
-//   overallDiv: {
-//     display: "flex",
-//     alignItems: "flex-start",
-//   },
-//   aboutMeImg: {
-//     margin: "5% 0% 5% 15%",
-//   },
-//   aboutMeText: {
-//     margin: "5% 5% 0% 5%",
-//   },
-//   educationImg: {
-//     margin: "5% 0% 0% 5%",
-//   },
-//   educationText: {
-//     margin: "5% 5% 0% 0%",
-//   },
-//   timelineImg: {
-//     height: "200px",
-//     width: "auto",
-//     margin: "5% 0% 0% 0%",
-//   },
-//   exampleTimeline: {
-//     height: "300px",
-//     width: "auto",
-//     margin: "5% 0% 0% -15%",
-//   },
-//   publications: {
-//     margin: "5% 0% 0% 15%",
-//   },
-// };
 const Home = () => {
   return (
     <div>
