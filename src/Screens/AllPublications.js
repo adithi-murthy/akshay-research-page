@@ -3,7 +3,7 @@ import React from "react";
 const styles = {};
 const Publications = () => {
   return (
-    <div>
+    <div style={{margin: "5% 5% 5% 5% "}}>
       <h1>Publications</h1>
       <ol>
         <li><b>Murthy, A. A.</b>; Das, P. M.; Ribet, S. M.;  Kopas, C.; Lee, J.; Reagor, M. J.; Zhou, L.; Kramer, M. J.; Hersam, M. C.; Checchin, M.; Grassellino, A.; dos Reis, R.; Dravid, V. P.; Romanenko, A., Developing a Chemical and Structural Understanding of the Surface Oxide in a Niobium Superconducting Qubit. <i>arXiv preprint arXiv:2203.08710</i>, <b>2022</b> <a href="https://arxiv.org/abs/2203.08710">[HTML]</a> </li>
