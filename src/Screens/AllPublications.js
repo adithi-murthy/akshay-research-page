@@ -1,6 +1,5 @@
 import React from "react";
 
-const styles = {};
 const Publications = () => {
   return (
     <div style={{margin: "5% 5% 5% 5% "}}>

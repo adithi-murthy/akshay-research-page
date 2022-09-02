@@ -65,7 +65,6 @@ const PublicationsText = (
             id="TOF-SIMS"
             alt="..."
             fluid
-            // style={styles.img}
             className="publicationImages"
           />
         </MDBCol>

@@ -1,7 +1,6 @@
 import React from "react";
 import { Nav, Navbar, NavDropdown, Container } from "react-bootstrap";
 import { HashLink } from "react-router-hash-link";
-import { MDBIcon } from "mdb-react-ui-kit";
 import backgroundImage from "../assets/background.png";
 import Pdf from "../assets/Murthy_CV.pdf";
 

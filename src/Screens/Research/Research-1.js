@@ -8,8 +8,8 @@ const Research1 = () => {
   return (
     <div>
       <div className="researchDiv">
-        <img src={Research1Figure} id="research1Figure" />
-        <div id="research1Text" alt="Understanding of Local Structure on Global Scale">{Research1Text}</div>
+        <img src={Research1Figure} alt="Understanding of Local Structure on Global Scale" id="research1Figure" />
+        <div id="research1Text">{Research1Text}</div>
       </div>
       <div className="relatedPublications" >
       <h3>Related Publications:</h3>

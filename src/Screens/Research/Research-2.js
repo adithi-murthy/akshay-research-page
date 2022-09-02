@@ -6,7 +6,6 @@ import {
   Research2Publication2,
 } from "../../Text/IndividualResearchPages/Research-2";
 
-const styles = {};
 const Research2 = () => {
   return (
     <div>

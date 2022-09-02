@@ -7,7 +7,6 @@ import {
   Publication2,
   Publication1Link,
   Publication2Link,
-  CVLink,
 } from "../Text/AboutMe";
 import Pdf from "../assets/Murthy_CV.pdf";
 import Google_Scholar_logo from "../assets/Google_Scholar_logo.svg.png";

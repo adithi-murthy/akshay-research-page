@@ -7,7 +7,6 @@ import { NorthwesternEducation, UIUCEducation } from "../Text/Education";
 import Research from "./Research";
 import PublicationsText from "./Publications";
 import "./Home.css";
-import { logDOM } from "@testing-library/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
