@@ -19,7 +19,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{ overflowX: "hidden" }}>
       <a id="about-me"></a>
       <div className="aboutMeDiv">
         <img src={picture} alt="Me" id="aboutMeImg" />
@@ -48,7 +48,7 @@ const Home = () => {
         </div>
       </div>
       <div id="publications"></div>
-      <div data-aos="fade-up-left">
+      <div data-aos="fade-left">
         <div>
           <div className="publicationsDivHome">{PublicationsText}</div>
         </div>

@@ -36,6 +36,9 @@
   align-items: flex-start;
   margin: 7% 0% 0% 15%;
 }
+#googleScholarLogo{
+  margin: 0% 0% 2% 1%;
+}
 @media only screen and (max-width: 1060px) {
   .overallDiv {
     display: block;

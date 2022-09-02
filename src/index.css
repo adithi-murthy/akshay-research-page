@@ -16,13 +16,13 @@ code {
 .hashlink {
   margin: 2% 2% 0% 2%;
   text-decoration: none;
-  color: rgba(255,255,255,.55);
+  color: rgba(255, 255, 255, 0.55);
   white-space: nowrap;
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.75s;
 }
 
-.hashlink:hover  {
+.hashlink:hover {
   color: white;
   border-bottom: 2px solid white;
 }
@@ -40,7 +40,7 @@ code {
 }
 
 @media only screen and (max-width: 1060px) {
-  .hashlink:hover{
+  .hashlink:hover {
     border-bottom: solid transparent;
     text-decoration: underline;
     text-decoration-thickness: 2px;
@@ -48,15 +48,3 @@ code {
     margin: 2% 2% 0% 2%;
   }
 }
-
-/* Media Queries: Tablet Landscape
-@media screen and (max-width: 1060px) {
-  #primary { width:67%; }
-  #secondary { width:30%; margin-left:3%;}  
-}
-
-/* Media Queries: Tabled Portrait */
-/* @media screen and (max-width: 768px) {
-  #primary { width:100%; }
-  #secondary { width:100%; margin:0; border:none; }
-} */
