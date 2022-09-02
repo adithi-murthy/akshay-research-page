@@ -1,13 +1,15 @@
 import React from "react";
 import picture from "../assets/person.jpeg";
-import exampleTimeline from "../assets/example-timeline.png";
+import NWLogo from "../assets/Northwestern-logo.jpeg";
+import UIUCLogo from "../assets/Illinois-logo.jpg";
 import universities from "../assets/universities.jpg";
 import timeline from "../assets/timeline.png";
 import AboutMe from "./AboutMe";
-import EducationText from "../Text/Education";
+import { NorthwesternEducation, UIUCEducation } from "../Text/Education";
 import Research from "./Research";
 import PublicationsText from "./Publications";
 import "./Home.css";
+import { logDOM } from "@testing-library/react";
 
 // const styles = {
 //   overallDiv: {
@@ -53,22 +55,19 @@ const Home = () => {
         <u>Education</u>
       </h1>
       <div className="overallDiv">
-        <div>
-          <img src={exampleTimeline} id="exampleTimeline" />
-          <img src={universities} alt="universities" id="educationImg" />
-        </div>
+        <img src={NWLogo} alt="Northwestern-Logo" id="NWImg" />
+        <div id="NWText">{NorthwesternEducation}</div>
+      </div>
+      <div className="overallDiv">
+        <img src={UIUCLogo} alt="UIUC-Logo" id="UIUCImg" />
+        <div id="UIUCText">{UIUCEducation}</div>
       </div>
       <div id="research"></div>
       <div>
         <div>{Research}</div>
       </div>
-      <div id="publications" 
-      // style={{marginBottom: "7%"}}
-      ></div>
+      <div id="publications"></div>
       <div>
-        {/* <br></br>
-        <br></br>
-        <br></br> */}
         <div className="publicationsDivHome">{PublicationsText}</div>
       </div>
     </div>

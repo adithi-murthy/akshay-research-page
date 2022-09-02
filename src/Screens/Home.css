@@ -13,56 +13,35 @@
 }
 #aboutMeText {
   margin: 5% 5% 0% 5%;
-  height: auto;
+}
+#NWImg {
+  margin: 9% 5% 5% 10%;
+}
+#NWText {
+  margin-right: 5%;
+}
+#UIUCImg {
+  margin: 7% 5% 0% 10%;
   max-width: 50%;
 }
-#educationImg {
-  /* margin: 5% 0% 0% 5%; */
-  height: auto;
-  max-width: 50%;
+#UIUCText {
+  margin: 13% 5% 0% 0%;
 }
-/* #educationText {
-  margin: 5% 5% 0% 0%;
-}
-#timelineImg {
-  height: 200px;
-  width: auto;
-  margin: 5% 0% 0% 0%;
-} */
-#exampleTimeline {
-  height: auto;
-  max-width: 50%;
-  /* margin: 5% 0% 0% -15%; */
-}
-/* #publicationsText {
-  margin: 0% 0% 0% 15%;
-} */
 .headers {
   margin: 10% 0% 5% 0%;
   text-align: center;
 }
-.publicationsDivHome{
+.publicationsDivHome {
   /* display: flex; */
   align-items: flex-start;
   margin: 7% 0% 0% 15%;
 }
 @media only screen and (max-width: 1060px) {
-  #exampleTimeline {
-    height: auto;
-    max-width: 75%;
-    margin: 0% 0% 5% 15%;
+  .overallDiv {
+    display: block;
   }
-  #educationImg {
-    height: auto;
-    max-width: 75%;
-    margin-left: 15%;
-  }
-  /* #publicationsText {
-    margin: 5% 0% 0% 0%;
-  } */
-  .publicationsDivHome{
+  .publicationsDivHome {
     margin: 20% 0% 0% 0%;
-
   }
   .aboutMeDiv {
     display: block;
@@ -78,7 +57,31 @@
     justify-content: center;
     text-align: center;
   }
-  .headers{
+  #NWImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 35%;
+  }
+  #NWText {
+    max-width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #UIUCImg {
+    display: block;
+    margin: 7% auto 0% auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    max-width: 35%;
+  }
+  #UIUCText {
+    max-width: 75%;
+    text-align: center;
+    margin: 5% auto 0% auto;
+  }
+  .headers {
     margin: 15% 0% 10% 0%;
   }
 }
