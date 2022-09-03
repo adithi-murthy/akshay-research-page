@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a9f309bd.css",
+    "main.js": "/static/js/main.c3c012b7.js",
+    "static/js/787.380eb6ec.chunk.js": "/static/js/787.380eb6ec.chunk.js",
+    "static/media/sulfurdiffusion.png": "/static/media/sulfurdiffusion.9cbfae8522ded42feacb.png",
+    "static/media/background.png": "/static/media/background.8950ca58c559d4928cb2.png",
+    "static/media/SIMS.png": "/static/media/SIMS.a4e51a5bf7bbe2564f17.png",
+    "static/media/DPC.png": "/static/media/DPC.cbb7c220577c14b5396c.png",
+    "static/media/person.jpeg": "/static/media/person.54619e4a449fa36ae4b5.jpeg",
+    "static/media/Figure2.png": "/static/media/Figure2.14e22eb020c87a65e464.png",
+    "static/media/Murthy_CV.pdf": "/static/media/Murthy_CV.1a0a67df3c73663d017f.pdf",
+    "static/media/Figure1.png": "/static/media/Figure1.952d5b7480adfac9caca.png",
+    "static/media/Figure3.png": "/static/media/Figure3.33b64f24b630849ff503.png",
+    "static/media/Google_Scholar_logo.svg.png": "/static/media/Google_Scholar_logo.svg.5c812b5a1c3b1b447e29.png",
+    "static/media/SQMS_logo copy.png": "/static/media/SQMS_logo copy.7833faa77cfaa1977852.png",
+    "static/media/Northwestern-logo.jpeg": "/static/media/Northwestern-logo.82d1d76beda6e3f817e9.jpeg",
+    "index.html": "/index.html",
+    "main.a9f309bd.css.map": "/static/css/main.a9f309bd.css.map",
+    "main.c3c012b7.js.map": "/static/js/main.c3c012b7.js.map",
+    "787.380eb6ec.chunk.js.map": "/static/js/787.380eb6ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9f309bd.css",
+    "static/js/main.c3c012b7.js"
+  ]
+}
