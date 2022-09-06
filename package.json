@@ -1,8 +1,7 @@
 {
-  "name": "hostinger-react",
-  "homepage": "http://aamurthy.com",
-  "version": "1.0.0",
-  "description": "my react application",
+  "name": "akshay-website",
+  "homepage": "http://aamurthy.com/",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
