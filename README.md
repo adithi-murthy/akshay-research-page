@@ -1,6 +1,6 @@
 # Akshay Murthy Research Website
 
-Check out the website here: aamurthy.com
+Check out the website here: https://aamurthy.com
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
