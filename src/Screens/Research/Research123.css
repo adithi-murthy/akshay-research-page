@@ -53,6 +53,7 @@
   #research1Text {
     max-width: 100%;
     text-align: center;
+    margin: 10% 5% 0% 5%;
   }
   #research2Figure {
     display: block;
@@ -63,6 +64,7 @@
   #research2Text {
     max-width: 100%;
     text-align: center;
+    margin: 10% 5% 0% 5%;
   }
   #research3Figure {
     display: block;
@@ -73,6 +75,7 @@
   #research3Text {
     max-width: 100%;
     text-align: center;
+    margin: 10% 5% 0% 5%;
   }
   .researchDiv {
     display: block;
