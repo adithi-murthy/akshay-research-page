@@ -8,7 +8,7 @@ const NorthwesternEducation = (
       confined systems"
     </h5>
     <h6>Advisor: Professor Vinayak P. Dravid</h6>
-    <ul>
+    <ul className="educationBullets">
       <li>
         Independently designed and directed several research initiatives aimed
         at addressing challenges within the 2D materials sub-field and published

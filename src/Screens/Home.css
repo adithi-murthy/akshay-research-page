@@ -84,4 +84,7 @@
   .headers {
     margin: 15% 0% 10% 0%;
   }
+  .educationBullets{
+    text-align: left;
+  }
 }
