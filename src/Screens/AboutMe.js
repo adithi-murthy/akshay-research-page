@@ -56,15 +56,18 @@ const AboutMe = (
           ></img>
         </a>
       </h3>
-      1.{" "}
-      <a href={Publication1Link} className="link">
-        {Publication1}
-      </a>
-      <br></br>
-      2.{" "}
-      <a href={Publication2Link} className="link">
-        {Publication2}
-      </a>
+      <ol className="latestPublicationsBullets">
+        <li>
+          <a href={Publication1Link} className="link">
+            {Publication1}
+          </a>
+        </li>
+        <li>
+          <a href={Publication2Link} className="link">
+            {Publication2}
+          </a>
+        </li>
+      </ol>
     </p>
   </div>
 );
