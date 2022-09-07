@@ -1,13 +1,15 @@
 const Research2Text = (
   <div>
-    <h1>In situ Processing of Quantum Materials:</h1>A series of fabrication
-    steps are needed to prepare quantum devices. Each of these steps can alter
-    the structure and chemistry of the constituent materials. Through the use of
-    in situ electron microscopy, I am interested in directly observing and
-    understanding the impact of specific fabrication steps. This is possible
-    through the use of various specialized sample holders as well as detectors
-    that provide complementary structural and chemical information regarding the
-    sample.
+    <h1>In situ Processing of Quantum Materials:</h1>
+    <p className="individualResearchBody">
+      A series of fabrication steps are needed to prepare quantum devices. Each
+      of these steps can alter the structure and chemistry of the constituent
+      materials. Through the use of in situ electron microscopy, I am interested
+      in directly observing and understanding the impact of specific fabrication
+      steps. This is possible through the use of various specialized sample
+      holders as well as detectors that provide complementary structural and
+      chemical information regarding the sample.
+    </p>
   </div>
 );
 

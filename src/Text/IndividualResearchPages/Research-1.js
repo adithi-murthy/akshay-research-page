@@ -1,25 +1,28 @@
 const Research1Text = (
   <div>
     <h1>Understanding of Local Structure on Global Scale:</h1>
-    Semiconductor electronics represent a hallmark example of materials
-    understanding and control. Through decades of dedicated materials research
-    focusing on the deep connections between structure, processing, properties,
-    and performance, manufacturers are able to reliably control semiconductor
-    materials down to the parts-per-billion chemical levels and nanometer length
-    scales necessary to achieve stable behavior in the current generation of
-    transistors. As device miniaturization approaches the limit of diminishing
-    returns, quantum computing has emerged as the next frontier and a platform
-    for potentially addressing computational problems deemed intractable with
-    classical computing. In the case of this platform as well, the quality of
-    the constituent materials and associated surfaces and interfaces dictates
-    the device performance and stability. Through the use of state-of-the-art
-    analytical electron microscopy and diffraction methods, I am interested in
-    identifying and quantifying vacancies, grain boundaries, and topological
-    defects in crystalline and amorphous quantum materials. Further, I apply
-    bulk measurement techniques such as x-ray techniques, mass spectrometry
-    techniques, vibrational spectroscopy techniques, and scanning probe
-    microscopy techniques to obtain a comprehensive understanding of defect
-    densities within the material.
+    <p className = "individualResearchBody">
+      Semiconductor electronics represent a hallmark example of materials
+      understanding and control. Through decades of dedicated materials research
+      focusing on the deep connections between structure, processing,
+      properties, and performance, manufacturers are able to reliably control
+      semiconductor materials down to the parts-per-billion chemical levels and
+      nanometer length scales necessary to achieve stable behavior in the
+      current generation of transistors. As device miniaturization approaches
+      the limit of diminishing returns, quantum computing has emerged as the
+      next frontier and a platform for potentially addressing computational
+      problems deemed intractable with classical computing. In the case of this
+      platform as well, the quality of the constituent materials and associated
+      surfaces and interfaces dictates the device performance and stability.
+      Through the use of state-of-the-art analytical electron microscopy and
+      diffraction methods, I am interested in identifying and quantifying
+      vacancies, grain boundaries, and topological defects in crystalline and
+      amorphous quantum materials. Further, I apply bulk measurement techniques
+      such as x-ray techniques, mass spectrometry techniques, vibrational
+      spectroscopy techniques, and scanning probe microscopy techniques to
+      obtain a comprehensive understanding of defect densities within the
+      material.
+    </p>
   </div>
 );
 

@@ -1,16 +1,18 @@
 const Research3Text = (
   <div>
     <h1>Probing Local Properties:</h1>
-    With access to rich atomic level structural information and insights into
-    the processes from which they arise, the missing piece to systematically
-    improving the performance of quantum systems is understanding local
-    properties. I am interested in using advanced electron microscopy and
-    diffraction techniques to observe exotic phenomena and states that can be
-    harnessed for storing and manipulating information. Additionally, I am also
-    interested in identifying inhomogeneities that limit the prevailing
-    superconductivity and lead to information loss. This involves the use of
-    techniques such as differential phase contrast, Lorentz TEM, and electron
-    holography at room and cryogenic temperatures.
+    <p className="individualResearchBody">
+      With access to rich atomic level structural information and insights into
+      the processes from which they arise, the missing piece to systematically
+      improving the performance of quantum systems is understanding local
+      properties. I am interested in using advanced electron microscopy and
+      diffraction techniques to observe exotic phenomena and states that can be
+      harnessed for storing and manipulating information. Additionally, I am
+      also interested in identifying inhomogeneities that limit the prevailing
+      superconductivity and lead to information loss. This involves the use of
+      techniques such as differential phase contrast, Lorentz TEM, and electron
+      holography at room and cryogenic temperatures.
+    </p>
   </div>
 );
 
