@@ -18,7 +18,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className = "containero" style={{ overflowX: "hidden" }}>
+    <div style={{ overflowX: "hidden" }}>
       <a id="about-me"></a>
       <div className="aboutMeDiv">
         <img src={picture} alt="Me" id="aboutMeImg" />
