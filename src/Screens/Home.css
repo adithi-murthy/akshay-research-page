@@ -35,7 +35,7 @@
   align-items: flex-start;
   margin: 7% 0% 0% 15%;
 }
-#googleScholarLogo{
+#googleScholarLogo {
   margin: 0% 0% 2% 1%;
 }
 @media only screen and (max-width: 1060px) {
@@ -48,6 +48,12 @@
   .aboutMeDiv {
     display: block;
   }
+  #about-me {
+    display: block;
+    position: relative;
+    top: -350px;
+    visibility: hidden;
+  }
   #aboutMeImg {
     display: block;
     margin-left: auto;
@@ -58,6 +64,12 @@
     max-width: 100%;
     justify-content: center;
     text-align: center;
+  }
+  #education {
+    display: block;
+    position: relative;
+    top: -350px;
+    visibility: hidden;
   }
   #NWImg {
     display: block;
@@ -84,10 +96,22 @@
   .headers {
     margin: 15% 0% 10% 0%;
   }
-  .educationBullets{
+  .educationBullets {
     text-align: left;
   }
-  .latestPublicationsBullets{
+  .latestPublicationsBullets {
     text-align: left;
+  }
+  #research {
+    display: block;
+    position: relative;
+    top: -350px;
+    visibility: hidden;
+  }
+  #publications {
+    display: block;
+    position: relative;
+    top: -350px;
+    visibility: hidden;
   }
 }
