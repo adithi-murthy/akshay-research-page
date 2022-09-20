@@ -23,7 +23,7 @@ import {
 import "./Publications.css";
 import SIMS from "../assets/publication_images/SIMS.png";
 import DPC from "../assets/publication_images/DPC.png";
-import sulfurdiffusion from "../assets/publication_images/sulfurdiffusion.png";
+import TOC from "../assets/publication_images/TOC.jpg";
 
 const styles = {
   card: {
@@ -61,8 +61,8 @@ const PublicationsText = (
       <MDBRow className="g-0">
         <MDBCol md="4">
           <MDBCardImage
-            src={SIMS}
-            id="TOF-SIMS"
+            src={TOC}
+            id="Decoherence Mechanisms"
             alt="..."
             fluid
             className="publicationImages"
@@ -84,8 +84,8 @@ const PublicationsText = (
       <MDBRow className="g-0">
         <MDBCol md="4">
           <MDBCardImage
-            src={DPC}
-            id="DPC"
+            src={SIMS}
+            id="TOF-SIMS"
             alt="..."
             fluid
             className="publicationImages"
@@ -107,8 +107,8 @@ const PublicationsText = (
       <MDBRow className="g-0">
         <MDBCol md="4">
           <MDBCardImage
-            src={sulfurdiffusion}
-            id="sulfur_diffusion"
+            src={DPC}
+            id="DPC"
             alt="..."
             fluid
             className="publicationImages"
