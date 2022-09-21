@@ -21,6 +21,7 @@ code {
   white-space: nowrap;
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.75s;
+  text-align: center;
 }
 
 .hashlink:hover {
@@ -43,9 +44,9 @@ code {
 @media only screen and (max-width: 1060px) {
   .hashlink:hover {
     border-bottom: solid transparent;
-    text-decoration: underline;
+    /* text-decoration: underline;
     text-decoration-thickness: 2px;
-    transition: text-decoration 1.5s;
+    transition: text-decoration 1.5s; */
     margin: 2% 2% 0% 2%;
   }
 }

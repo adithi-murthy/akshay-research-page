@@ -1,9 +1,9 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Nav, Navbar, NavDropdown, Container } from "react-bootstrap";
 import { HashLink } from "react-router-hash-link";
 import backgroundImage from "../assets/background.png";
 import Pdf from "../assets/Murthy_CV.pdf";
-import "./NavBar.css"
+import "./NavBar.css";
 
 const NavBar = () => {
   const [expanded, setExpanded] = useState(false);
@@ -11,7 +11,13 @@ const NavBar = () => {
   return (
     <>
       <>
-        <Navbar sticky="top" expand="lg" bg="dark" variant="dark" expanded={expanded}>
+        <Navbar
+          sticky="top"
+          expand="lg"
+          bg="dark"
+          variant="dark"
+          expanded={expanded}
+        >
           <Container>
             <Navbar.Brand href="/">Akshay Murthy</Navbar.Brand>
             <Navbar.Toggle
@@ -19,37 +25,95 @@ const NavBar = () => {
               className="fas fa-bars"
               onClick={() => setExpanded(expanded ? false : "expanded")}
             />
-            <Navbar.Collapse id="responsive-navbar-nav">
+            <Navbar.Collapse
+              id="responsive-navbar-nav"
+              style={{ position: "static" }}
+            >
               <Nav className="me-auto">
-                <HashLink smooth to="/#about-me" className="hashlink" onClick={() => setTimeout(() => {setExpanded(false)}, 150)}>
+                <HashLink
+                  smooth
+                  to="/#about-me"
+                  className="hashlink"
+                  onClick={() =>
+                    setTimeout(() => {
+                      setExpanded(false);
+                    }, 150)
+                  }
+                >
                   About Me
                 </HashLink>
-                <HashLink smooth to="/#education" className="hashlink" onClick={() => setTimeout(() => {setExpanded(false)}, 150)}>
+                <HashLink
+                  smooth
+                  to="/#education"
+                  className="hashlink"
+                  onClick={() =>
+                    setTimeout(() => {
+                      setExpanded(false);
+                    }, 150)
+                  }
+                >
                   Education
                 </HashLink>
-                <HashLink smooth to="/#research" className="hashlink" onClick={() => setTimeout(() => {setExpanded(false)}, 150)}>
+                <HashLink
+                  smooth
+                  to="/#research"
+                  className="hashlink"
+                  onClick={() =>
+                    setTimeout(() => {
+                      setExpanded(false);
+                    }, 150)
+                  }
+                >
                   Research
                 </HashLink>
-                <HashLink smooth to="/#publications" className="hashlink" onClick={() => setTimeout(() => {setExpanded(false)}, 150)}>
+                <HashLink
+                  smooth
+                  to="/#publications"
+                  className="hashlink"
+                  onClick={() =>
+                    setTimeout(() => {
+                      setExpanded(false);
+                    }, 150)
+                  }
+                >
                   Publications
                 </HashLink>
-                <HashLink smooth to="/#contact-me" className="hashlink" onClick={() => setTimeout(() => {setExpanded(false)}, 150)}>
+                <HashLink
+                  smooth
+                  to="/#contact-me"
+                  className="hashlink"
+                  onClick={() =>
+                    setTimeout(() => {
+                      setExpanded(false);
+                    }, 150)
+                  }
+                >
                   Contact Me
                 </HashLink>
               </Nav>
-              <Nav>
+              <Nav style={{ backgroundColor: "#262626" }}>
                 <NavDropdown
                   title="Research Topics"
                   id="collasible-nav-dropdown"
                   className="hashlink"
                 >
-                  <NavDropdown.Item href="/understanding-of-local-structure-on-global-scale" id="dropdownItems">
+                  <NavDropdown.Item
+                    href="/understanding-of-local-structure-on-global-scale"
+                    id="dropdownItems"
+                  >
                     Understanding of Local Structure on Global Scale
+                    {/* </div> */}
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="/in-situ-processing-of-quantum-materials" id="dropdownItems">
+                  <NavDropdown.Item
+                    href="/in-situ-processing-of-quantum-materials"
+                    id="dropdownItems"
+                  >
                     In situ Processing of Quantum Materials
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="/probing-local-properties" id="dropdownItems">
+                  <NavDropdown.Item
+                    href="/probing-local-properties"
+                    id="dropdownItems"
+                  >
                     Probing Local Properties
                   </NavDropdown.Item>
                 </NavDropdown>
