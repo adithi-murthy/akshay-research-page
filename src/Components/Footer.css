@@ -2,7 +2,7 @@
   color: white;
   display: flex;
   justify-content: space-evenly;
-  margin-right: 10%;
+  margin-right: 7%;
 }
 #SQMSImg {
   margin: 0% 0% 0% 5%;
@@ -18,16 +18,20 @@
   max-width: 25%;
 }
 
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 992px) {
     #footerContainer{
         margin-left: 15%;
     }
+    #footerText {
+      max-width: 100%;
+      margin: 2% 5% 0% 5%;
+    }
     #SQMSImg{
         max-width: 60%;
-        margin: 2% 5% 2% 0%;
+        margin: 2% 5% 0% 5%;
     }
     #fermiImg {
-        margin: 3% 2% 0% 0%;
-        max-width: 50%;
+        margin: 2% 5% 0% 5%;
+        max-width: 70%;
     }
 }
