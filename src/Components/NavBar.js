@@ -91,7 +91,7 @@ const NavBar = () => {
                   Contact Me
                 </HashLink>
               </Nav>
-              <Nav style={{ backgroundColor: "#262626" }}>
+              <Nav>
                 <NavDropdown
                   title="Research Topics"
                   id="collasible-nav-dropdown"
