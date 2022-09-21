@@ -1,0 +1,24 @@
+#dropdownItems {
+  background-color: #262626;
+  color: white;
+  text-align: center;
+  position: static;
+}
+#dropdownItems:hover {
+  background-color: white;
+  color: #262626;
+}
+@media only screen and (max-width: 992px) {
+  .nav-link {
+    padding: 0% 0% 0% 0% !important;
+  }
+  .dropdown-menu {
+    position: static !important;
+    box-shadow: none !important;
+  }
+  #dropdownItems:hover {
+    background-color: white;
+    color: #262626;
+    text-decoration: none !important;
+  }
+}
