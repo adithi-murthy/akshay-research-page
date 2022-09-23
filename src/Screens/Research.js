@@ -25,7 +25,7 @@ import "./Research.css";
 const Research = (
   <>
     <h1 className="headers">
-      <u>Research</u>
+      Research
     </h1>
     <MDBCardGroup id="researchID">
       <MDBCard style={{ margin: "0% 2% 5% 2%" }}>

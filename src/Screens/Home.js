@@ -26,9 +26,7 @@ const Home = () => {
       </div>
       <div id="education"></div>
       <div data-aos="fade-right">
-        <h1 className="headers">
-          <u>Education</u>
-        </h1>
+        <h1 className="headers">Education</h1>
         <div className="overallDiv">
           <img src={NWLogo} alt="Northwestern-Logo" id="NWImg" />
           <div id="NWText">{NorthwesternEducation}</div>
