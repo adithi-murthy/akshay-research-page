@@ -27,6 +27,7 @@ const Research = (
     <h1 className="headers">Research</h1>
     <MDBCardGroup id="researchID">
       <MDBCard style={{ margin: "0% 2% 5% 2%" }}>
+      <MDBCardTitle style={{ textAlign: "center", margin: "8% 4% 8% 4%" }}>{Research1}</MDBCardTitle>
         <a href="/understanding-of-local-structure-on-global-scale">
           <MDBRipple
             rippleColor="light"
@@ -49,7 +50,6 @@ const Research = (
           </MDBRipple>
         </a>
         <MDBCardBody style={{ textAlign: "center" }}>
-          <MDBCardTitle>{Research1}</MDBCardTitle>
           <MDBCardText>{Research1Description}</MDBCardText>
           <MDBCardFooter>
             <MDBBtn
@@ -63,6 +63,7 @@ const Research = (
       </MDBCard>
 
       <MDBCard style={{ margin: "0% 2% 5% 0%" }}>
+      <MDBCardTitle style={{ textAlign: "center", margin: "8% 4% 8% 4%" }}>{Research2}</MDBCardTitle>
         <a href="/in-situ-processing-of-quantum-materials">
           <MDBRipple
             rippleColor="light"
@@ -85,7 +86,6 @@ const Research = (
           </MDBRipple>
         </a>
         <MDBCardBody style={{ textAlign: "center" }}>
-          <MDBCardTitle>{Research2}</MDBCardTitle>
           <MDBCardText>{Research2Description}</MDBCardText>
           <MDBCardFooter>
             <MDBBtn
@@ -98,6 +98,7 @@ const Research = (
         </MDBCardBody>
       </MDBCard>
       <MDBCard style={{ margin: "0% 2% 5% 0%" }}>
+      <MDBCardTitle style={{ textAlign: "center", margin: "8% 4% 8% 4%" }}>{Research3}</MDBCardTitle>
         <a href="/probing-local-properties">
           <MDBRipple
             rippleColor="light"
@@ -119,7 +120,6 @@ const Research = (
           </MDBRipple>
         </a>
         <MDBCardBody style={{ textAlign: "center" }}>
-          <MDBCardTitle>{Research3}</MDBCardTitle>
           <MDBCardText id="propertiesText">{Research3Description}</MDBCardText>
           <MDBCardFooter>
             <MDBBtn href="/probing-local-properties" id="readMoreButton">
