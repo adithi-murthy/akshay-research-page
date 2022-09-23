@@ -2,12 +2,12 @@ const NorthwesternEducation = (
   <p>
     <h2>Northwestern University</h2>
     <h3>Doctor of Philosophy (Ph.D.), Materials Science and Engineering</h3>
-    <h4>2015-2020</h4>
+    <h3>2015-2020</h3>
     <h5>
       Thesis: "Probing static and dynamic phenomena in two-dimensionally
       confined systems"
     </h5>
-    <h6>Advisor: Professor Vinayak P. Dravid</h6>
+    <h5>Advisor: Professor Vinayak P. Dravid</h5>
     <ul className="educationBullets">
       <li>
         Independently designed and directed several research initiatives aimed
@@ -48,7 +48,7 @@ const UIUCEducation = (
   <p>
     <h2>University of Illinois at Urbana-Champaign</h2>
     <h3>Bachelor's Degree, Materials Science and Engineering</h3>
-    <h4>2012-2015</h4>
+    <h3>2012-2015</h3>
   </p>
 );
 export { NorthwesternEducation, UIUCEducation };
