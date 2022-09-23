@@ -45,7 +45,7 @@ const AboutMe = (
         DOWNLOAD CV
       </a>
       <h3 style={{ marginTop: "5%" }}>
-        Latest Publications:
+        Recent Press Releases:
         <a href="https://scholar.google.com/citations?user=k7on3FAAAAAJ&hl=en">
           <img
             src={Google_Scholar_logo}
