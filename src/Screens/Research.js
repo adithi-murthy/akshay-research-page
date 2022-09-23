@@ -24,9 +24,7 @@ import {
 import "./Research.css";
 const Research = (
   <>
-    <h1 className="headers">
-      Research
-    </h1>
+    <h1 className="headers">Research</h1>
     <MDBCardGroup id="researchID">
       <MDBCard style={{ margin: "0% 2% 5% 2%" }}>
         <a href="/understanding-of-local-structure-on-global-scale">
