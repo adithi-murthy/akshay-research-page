@@ -1,7 +1,7 @@
 #dropdownItems {
   background-color: #262626;
   color: white;
-  text-align: center;
+  text-align: left;
   position: static;
 }
 #dropdownItems:hover {
@@ -15,6 +15,9 @@
   .dropdown-menu {
     position: static !important;
     box-shadow: none !important;
+  }
+  #dropdownItems {
+    text-align: center;
   }
   #dropdownItems:hover {
     background-color: white;
