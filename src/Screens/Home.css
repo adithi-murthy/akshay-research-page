@@ -100,8 +100,9 @@
   .educationBullets {
     text-align: left;
   }
-  .latestPublicationsBullets {
+  .latestPressBullets {
     text-align: left;
+    margin: 0% 8% 0% 8%;
   }
   #research {
     display: block;

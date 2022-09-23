@@ -56,7 +56,7 @@ const AboutMe = (
           ></img>
         </a>
       </h3>
-      <ol className="latestPublicationsBullets">
+      <ol className="latestPressBullets">
         <li>
           <a href={Publication1Link} className="link">
             {Publication1}
