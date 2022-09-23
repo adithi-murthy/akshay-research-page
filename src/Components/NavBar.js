@@ -102,7 +102,6 @@ const NavBar = () => {
                     id="dropdownItems"
                   >
                     Understanding of Local Structure on Global Scale
-                    {/* </div> */}
                   </NavDropdown.Item>
                   <NavDropdown.Item
                     href="/in-situ-processing-of-quantum-materials"
