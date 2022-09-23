@@ -1,4 +1,4 @@
-import { MDBIcon } from "mdb-react-ui-kit";
+import { MDBIcon, MDBBtn } from "mdb-react-ui-kit";
 import {
   Name,
   JobTitle,
@@ -41,9 +41,9 @@ const AboutMe = (
     </a>
     <p style={{ marginTop: "3%" }}>{AboutMeText}</p>
     <p>
-      <a href={Pdf} className="link" style={{ fontWeight: "bold" }}>
-        DOWNLOAD CV
-      </a>
+    <MDBBtn style={{ backgroundColor: 'black' }} href={Pdf}>
+      <MDBIcon className='me-2' fas icon='download' /> DOWNLOAD CV
+    </MDBBtn>
       <h3 style={{ marginTop: "5%" }}>
         Recent Press Releases:
         <a href="https://scholar.google.com/citations?user=k7on3FAAAAAJ&hl=en">
