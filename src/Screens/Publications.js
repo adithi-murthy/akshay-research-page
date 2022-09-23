@@ -72,7 +72,7 @@ const PublicationsText = (
             <MDBCardTitle>{Publication1}</MDBCardTitle>
             <MDBCardText>{Publication1Description}</MDBCardText>
             <a href={Publication1Link} className="link">
-              Read the publication here
+              <i>Read the publication here</i>
             </a>
           </MDBCardBody>
         </MDBCol>
@@ -95,7 +95,7 @@ const PublicationsText = (
             <MDBCardTitle>{Publication2}</MDBCardTitle>
             <MDBCardText>{Publication2Description}</MDBCardText>
             <a href={Publication2Link} className="link">
-              Read the publication here
+              <i>Read the publication here</i>
             </a>
           </MDBCardBody>
         </MDBCol>
@@ -118,7 +118,7 @@ const PublicationsText = (
             <MDBCardTitle>{Publication3}</MDBCardTitle>
             <MDBCardText>{Publication3Description}</MDBCardText>
             <a href={Publication3Link} className="link">
-              Read the publication here
+              <i>Read the publication here</i>
             </a>
           </MDBCardBody>
         </MDBCol>
