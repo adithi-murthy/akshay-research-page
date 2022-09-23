@@ -14,7 +14,7 @@ import Google_Scholar_logo from "../assets/Google_Scholar_logo.svg.png";
 const AboutMe = (
   <div>
     <h1>{Name}</h1>
-    <h2>{JobTitle}</h2>
+    <h2 style={{ marginBottom: "3%" }}>{JobTitle}</h2>
     <a
       className="btn btn-primary btn-floating m-1"
       style={{ backgroundColor: "#0082ca" }}
@@ -39,7 +39,7 @@ const AboutMe = (
     >
       <MDBIcon fab icon="twitter" />
     </a>
-    <p>{AboutMeText}</p>
+    <p style={{ marginTop: "3%" }}>{AboutMeText}</p>
     <p>
       <a href={Pdf} className="link" style={{ fontWeight: "bold" }}>
         DOWNLOAD CV
