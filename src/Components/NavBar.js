@@ -107,13 +107,13 @@ const NavBar = () => {
                     href="/in-situ-processing-of-quantum-materials"
                     id="dropdownItems"
                   >
-                    In situ Processing of Quantum Materials
+                    Processing of Quantum Materials
                   </NavDropdown.Item>
                   <NavDropdown.Item
                     href="/probing-local-properties"
                     id="dropdownItems"
                   >
-                    Probing Local Properties
+                    Probing Emergent Phenomena
                   </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="/publications" className="hashlink">

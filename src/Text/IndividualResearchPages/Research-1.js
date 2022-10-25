@@ -13,15 +13,11 @@ const Research1Text = (
       next frontier and a platform for potentially addressing computational
       problems deemed intractable with classical computing. In the case of this
       platform as well, the quality of the constituent materials and associated
-      surfaces and interfaces dictates the device performance and stability.
-      Through the use of state-of-the-art analytical electron microscopy and
-      diffraction methods, I am interested in identifying and quantifying
-      vacancies, grain boundaries, and topological defects in crystalline and
-      amorphous quantum materials. Further, I apply bulk measurement techniques
-      such as x-ray techniques, mass spectrometry techniques, vibrational
-      spectroscopy techniques, and scanning probe microscopy techniques to
-      obtain a comprehensive understanding of defect densities within the
-      material.
+      surfaces and interfaces dictates the stability of quantum states. Through 
+      the use of state-of-the-art analytical electron microscopy and diffraction 
+      methods, I am interested in identifying and quantifying vacancies, grain 
+      boundaries, and topological defects in crystalline and amorphous quantum 
+      materials.
     </p>
   </div>
 );
