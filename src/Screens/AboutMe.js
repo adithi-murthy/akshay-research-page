@@ -3,6 +3,7 @@ import {
   Name,
   JobTitle,
   AboutMeText,
+  AboutMeText2,
   Publication1,
   Publication2,
   Publication1Link,
@@ -40,6 +41,7 @@ const AboutMe = (
       <MDBIcon fab icon="twitter" />
     </a>
     <p style={{ marginTop: "3%" }}>{AboutMeText}</p>
+    <p style={{ marginTop: "3%" }}>{AboutMeText2}</p>
     <p>
     <MDBBtn style={{ backgroundColor: 'black' }} href={Pdf}>
       <MDBIcon className='me-2' fas icon='download' /> DOWNLOAD CV
