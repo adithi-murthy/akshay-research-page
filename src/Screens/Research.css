@@ -13,6 +13,10 @@
 #propertiesText {
   margin-bottom: 17%;
 }
+#researchIntro {
+  margin: 0% 5% 5% 5%;
+  text-align: center;
+}
 
 @media only screen and (max-width: 1060px) {
   #researchID {

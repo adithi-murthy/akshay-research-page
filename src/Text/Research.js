@@ -1,3 +1,4 @@
+export const ResearchIntro = "As quantum systems are highly sensitive and responsive to perturbations and disorder at the atomic-scale, it is imperative to deeply understand how material structure, processing conditions, and property/performance metrics are linked. I seek to study quantum materials and devices using advanced microscopy and spectroscopy techniques to understand how the stability of quantum states are impacted by variations in the atomic and nanostructure."
 export const Research1 = "Understanding of Local Structure on Global Scale"
 export const Research1Description = "Use of correlative microscopy and spectroscopy techniques to understand material structure from the atomic to the macro-scale."
 export const Research2 = "Processing of Quantum Materials"
