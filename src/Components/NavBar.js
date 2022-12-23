@@ -98,19 +98,19 @@ const NavBar = () => {
                   className="hashlink"
                 >
                   <NavDropdown.Item
-                    href="/understanding-of-local-structure-on-global-scale"
+                    href="/investigating-structural-dynamics"
                     id="dropdownItems"
                   >
-                    Understanding of Local Structure on Global Scale
+                    Investigating Structural Dynamics
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href="/in-situ-processing-of-quantum-materials"
+                    href="identifying-chemical-impurities"
                     id="dropdownItems"
                   >
-                    Processing of Quantum Materials
+                    Identifying Chemical Impurities
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href="/probing-local-properties"
+                    href="/probing-emergent-phenomena"
                     id="dropdownItems"
                   >
                     Probing Emergent Phenomena

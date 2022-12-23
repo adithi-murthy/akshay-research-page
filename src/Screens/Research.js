@@ -29,7 +29,7 @@ const Research = (
     <div id="researchIntro">{ResearchIntro}</div>
     <MDBCardGroup id="researchID">
       <MDBCard style={{ margin: "0% 2% 5% 2%" }}>
-        <a href="/understanding-of-local-structure-on-global-scale">
+        <a href="/investigating-structural-dynamics">
           <MDBCardTitle
             style={{
               textAlign: "center",
@@ -63,7 +63,7 @@ const Research = (
           <MDBCardText>{Research1Description}</MDBCardText>
           <MDBCardFooter>
             <MDBBtn
-              href="/understanding-of-local-structure-on-global-scale"
+              href="/investigating-structural-dynamics"
               id="readMoreButton"
             >
               Read More
@@ -73,7 +73,7 @@ const Research = (
       </MDBCard>
 
       <MDBCard style={{ margin: "0% 2% 5% 0%" }}>
-        <a href="/in-situ-processing-of-quantum-materials">
+        <a href="identifying-chemical-impurities">
           <MDBCardTitle
             style={{
               textAlign: "center",
@@ -107,7 +107,7 @@ const Research = (
           <MDBCardText>{Research2Description}</MDBCardText>
           <MDBCardFooter>
             <MDBBtn
-              href="/in-situ-processing-of-quantum-materials"
+              href="identifying-chemical-impurities"
               id="readMoreButton"
             >
               Read More
@@ -116,7 +116,7 @@ const Research = (
         </MDBCardBody>
       </MDBCard>
       <MDBCard style={{ margin: "0% 2% 5% 0%" }}>
-        <a href="/probing-local-properties">
+        <a href="/probing-emergent-phenomena">
         <MDBCardTitle style={{ textAlign: "center", margin: "8% 4% 8% 4%", color: "#4F4F4F" }}>
           {Research3}
         </MDBCardTitle>
@@ -127,7 +127,7 @@ const Research = (
             style={{ display: "block" }}
           >
             <MDBCardImage
-              href="/probing-local-properties"
+              href="/probing-emergent-phenomena"
               src={Figure3}
               alt="Properties"
               id="propertiesImg"
@@ -142,7 +142,7 @@ const Research = (
         <MDBCardBody style={{ textAlign: "center" }}>
           <MDBCardText id="propertiesText">{Research3Description}</MDBCardText>
           <MDBCardFooter>
-            <MDBBtn href="/probing-local-properties" id="readMoreButton">
+            <MDBBtn href="/probing-emergent-phenomena" id="readMoreButton">
               Read More
             </MDBBtn>
           </MDBCardFooter>

@@ -12,7 +12,7 @@ const Research2 = () => {
       <div className="researchDiv">
         <img
           src={Research2Figure}
-          alt="In situ Processing of Quantum Materials"
+          alt="Identifying Chemical Impurities"
           id="research2Figure"
         />
         <div id="research2Text">{Research2Text}</div>

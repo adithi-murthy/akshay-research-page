@@ -29,7 +29,7 @@ const Research2Publication1 = (
 
 const Research2Publication2 = (
   <div>
-    <b>Murthy, A. A.</b>; Lee, J. Y.; Sung, Z; Reagor, M; Grassellino, A.; Romanenko, A., 
+    <b>Murthy, A. A.</b>*; Lee, J. Y.*; Sung, Z.*; Reagor, M.; Grassellino, A.; Romanenko, A., 
     Discovery of Nb hydride precipitates in superconducting qubits. {" "}
     <i>arXiv preprint arXiv:2108.10385.</i> <b>2021</b> {" "}
     <a href="https://arxiv.org/abs/2108.10385">[HTML]</a>
