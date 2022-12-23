@@ -18,7 +18,7 @@
 #research2Figure {
   margin: 5% 0% 0% 5%;
   height: auto;
-  max-width: 50%;
+  max-width: 30%;
 }
 
 #research2Text {
@@ -59,7 +59,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 100%;
+    max-width: 80%;
   }
   #research2Text {
     max-width: 100%;
@@ -83,7 +83,7 @@
   .relatedPublications {
     margin: 10% 5% 0% 5%;
   }
-  .individualResearchBody{
+  .individualResearchBody {
     text-align: left;
   }
 }
