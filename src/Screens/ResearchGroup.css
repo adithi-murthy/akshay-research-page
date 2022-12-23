@@ -1,3 +1,9 @@
 #researchGroupHeader{
-    margin: 5% 0% 5% 42%
+    margin: 5% 0% 5% 41%
+}
+
+@media only screen and (max-width: 992px) {
+    #researchGroupHeader{
+        margin-left: 32%;
+    }
 }
