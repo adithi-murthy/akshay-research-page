@@ -16,9 +16,9 @@ function App() {
       <div>
         <NavBar />
         <Switch>
-          <Route path="/understanding-of-local-structure-on-global-scale" component={Research1} />
-          <Route path="/in-situ-processing-of-quantum-materials" component={Research2} />
-          <Route path="/probing-local-properties" component={Research3} />
+          <Route path="/investigating-structural-dynamics" component={Research1} />
+          <Route path="/identifying-chemical-impurities" component={Research2} />
+          <Route path="/probing-emergent-phenomena" component={Research3} />
           <Route path="/publications" component={Publications} />
           <Route path="/research-group" component={ResearchGroup} />
           <Route path="/" component={Home} />

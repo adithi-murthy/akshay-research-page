@@ -8,7 +8,7 @@ const Research1 = () => {
   return (
     <div>
       <div className="researchDiv">
-        <img src={Research1Figure} alt="Understanding of Local Structure on Global Scale" id="research1Figure" />
+        <img src={Research1Figure} alt="Investigating Structural Dynamics" id="research1Figure" />
         <div id="research1Text">{Research1Text}</div>
       </div>
       <div className="relatedPublications" >
