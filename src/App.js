@@ -8,6 +8,7 @@ import Research1 from "./Screens/Research/Research-1";
 import Research2 from "./Screens/Research/Research-2";
 import Research3 from "./Screens/Research/Research-3";
 import Publications from "./Screens/AllPublications";
+import ResearchGroup from "./Screens/ResearchGroup";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/in-situ-processing-of-quantum-materials" component={Research2} />
           <Route path="/probing-local-properties" component={Research3} />
           <Route path="/publications" component={Publications} />
+          <Route path="/research-group" component={ResearchGroup} />
           <Route path="/" component={Home} />
         </Switch>
         <Footer />

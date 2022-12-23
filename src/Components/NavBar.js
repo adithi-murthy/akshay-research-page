@@ -116,6 +116,9 @@ const NavBar = () => {
                     Probing Emergent Phenomena
                   </NavDropdown.Item>
                 </NavDropdown>
+                <Nav.Link href="/research-group" className="hashlink">
+                  Meet The Group
+                </Nav.Link>
                 <Nav.Link href="/publications" className="hashlink">
                   Publication List
                 </Nav.Link>
