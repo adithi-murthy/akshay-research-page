@@ -3,15 +3,14 @@ const Research3Text = (
     <h1>Probing Emergent Phenomena:</h1>
     <p className="individualResearchBody">
       With access to rich atomic level structural information and insights into
-      the processes from which they arise, the missing piece to systematically
-      improving the performance of quantum systems is understanding local
-      properties. I am interested in using advanced microscopy and
-      diffraction techniques to observe exotic phenomena and states that can be
-      harnessed for storing and manipulating information. This involves the use of
-      electron microscopy techniques such as differential phase contrast, Lorentz TEM, 
-      and electron holography as well as scanning probe microscopy techniques such
-      as scanning tunneling microscopy and microwave impedance microscopy at room 
-      and cryogenic temperatures.  
+      the impurities present, the missing piece to systematically improving the 
+      performance of quantum systems is understanding local properties. I apply 
+      advanced microscopy and diffraction techniques to observe exotic phenomena 
+      and states that can be harnessed for storing and manipulating information. 
+      This involves the use of electron microscopy techniques such as differential 
+      phase contrast, Lorentz TEM, and electron holography as well as scanning 
+      probe microscopy techniques such as scanning tunneling microscopy and 
+      microwave impedance microscopy at room and cryogenic temperatures.  
     </p>
   </div>
 );
