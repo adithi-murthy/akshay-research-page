@@ -20,11 +20,13 @@ import {
   Research2Description,
   Research3,
   Research3Description,
+  ResearchIntro
 } from "../Text/Research";
 import "./Research.css";
 const Research = (
   <>
     <h1 className="headers">Research</h1>
+    <div id="researchIntro">{ResearchIntro}</div>
     <MDBCardGroup id="researchID">
       <MDBCard style={{ margin: "0% 2% 5% 2%" }}>
         <a href="/understanding-of-local-structure-on-global-scale">
