@@ -23,7 +23,7 @@ import {
 import "./Publications.css";
 import SIMS from "../assets/publication_images/SIMS.png";
 import DPC from "../assets/publication_images/DPC.png";
-import TOC from "../assets/publication_images/TOC.jpg";
+import RDF from "../assets/publication_images/rdf.png";
 
 const styles = {
   card: {
@@ -60,7 +60,7 @@ const PublicationsText = (
       <MDBRow className="g-0">
         <MDBCol md="4">
           <MDBCardImage
-            src={TOC}
+            src={RDF}
             id="Decoherence Mechanisms"
             alt="..."
             fluid
