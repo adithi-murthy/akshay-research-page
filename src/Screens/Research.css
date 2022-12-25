@@ -4,14 +4,12 @@
   margin-right: auto;
   max-width: 100%;
 }
-#structureImg {
-  max-width: 75%;
-}
-#processingImg {
+#structureImg,
+#impuritiesImg {
   margin: 25% 0% 18% 0%;
 }
 #propertiesText {
-  margin-bottom: 17%;
+  margin: 7% 0% 4% 0%;
 }
 #researchIntro {
   margin: 0% 5% 5% 5%;
@@ -22,11 +20,11 @@
   #researchID {
     display: block;
   }
-  #structureImg,
   #propertiesImg {
     max-width: 60%;
   }
-  #processingImg {
+  #structureImg,
+  #impuritiesImg {
     margin: 0% auto 0% auto;
     max-width: 80%;
   }

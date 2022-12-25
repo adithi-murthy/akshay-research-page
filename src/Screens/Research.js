@@ -47,7 +47,7 @@ const Research = (
           >
             <MDBCardImage
               src={Figure1}
-              alt="Structure"
+              alt="Investigating-Structural-Dynamics"
               className="researchCardImage"
               id="structureImg"
             />
@@ -91,9 +91,9 @@ const Research = (
           >
             <MDBCardImage
               src={Figure2}
-              alt="Processing"
+              alt="Identifying-Chemical-Impurities"
               className="researchCardImage"
-              id="processingImg"
+              id="impuritiesImg"
             />
             <a>
               <div
@@ -129,7 +129,7 @@ const Research = (
             <MDBCardImage
               href="/probing-emergent-phenomena"
               src={Figure3}
-              alt="Properties"
+              alt="probing-emergent-phenomena"
               id="propertiesImg"
               className="researchCardImage"
             />
