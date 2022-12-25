@@ -42,7 +42,7 @@ code {
   border-bottom: 2px solid blue;
 }
 
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 1200px) {
   .hashlink:hover {
     border-bottom: solid transparent;
     margin: 2% 2% 0% 2%;

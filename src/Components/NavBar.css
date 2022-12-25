@@ -8,7 +8,7 @@
   background-color: white;
   color: #262626;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1200px) {
   .nav-link {
     padding: 0% 0% 0% 0% !important;
   }

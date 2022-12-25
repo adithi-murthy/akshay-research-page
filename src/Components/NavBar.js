@@ -13,7 +13,7 @@ const NavBar = () => {
       <>
         <Navbar
           sticky="top"
-          expand="lg"
+          expand="xl"
           bg="dark"
           variant="dark"
           expanded={expanded}
