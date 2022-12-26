@@ -10,7 +10,7 @@ import {
   MDBBtn,
   MDBRipple,
 } from "mdb-react-ui-kit";
-import Figure1 from "../assets/Figure1.png";
+import Figure1 from "../assets/Figure1.jpeg";
 import Figure2 from "../assets/Figure2.png";
 import Figure3 from "../assets/Figure3.png";
 import {
@@ -20,7 +20,7 @@ import {
   Research2Description,
   Research3,
   Research3Description,
-  ResearchIntro
+  ResearchIntro,
 } from "../Text/Research";
 import "./Research.css";
 const Research = (
@@ -106,10 +106,7 @@ const Research = (
         <MDBCardBody style={{ textAlign: "center" }}>
           <MDBCardText>{Research2Description}</MDBCardText>
           <MDBCardFooter>
-            <MDBBtn
-              href="identifying-chemical-impurities"
-              id="readMoreButton"
-            >
+            <MDBBtn href="identifying-chemical-impurities" id="readMoreButton">
               Read More
             </MDBBtn>
           </MDBCardFooter>
@@ -117,9 +114,15 @@ const Research = (
       </MDBCard>
       <MDBCard style={{ margin: "0% 2% 5% 0%" }}>
         <a href="/probing-emergent-phenomena">
-        <MDBCardTitle style={{ textAlign: "center", margin: "8% 4% 8% 4%", color: "#4F4F4F" }}>
-          {Research3}
-        </MDBCardTitle>
+          <MDBCardTitle
+            style={{
+              textAlign: "center",
+              margin: "8% 4% 8% 4%",
+              color: "#4F4F4F",
+            }}
+          >
+            {Research3}
+          </MDBCardTitle>
           <MDBRipple
             rippleColor="light"
             rippleTag="div"
