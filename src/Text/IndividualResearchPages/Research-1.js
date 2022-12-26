@@ -7,8 +7,8 @@ const Research1Text = (
       microscopy and diffraction techniques, we are able to identify the presence 
       of defects and inhomogeneities down to the atomic scale in both crystalline 
       and amorphous solids. This involves techniques such as differential phase 
-      contrast and fluctuation electron microscopy. Further, through the use of 
-      <i>in situ</i> specimen holders that enable sample cooling down to cryogenic 
+      contrast and fluctuation electron microscopy. Further, through the use of <i>in situ</i> specimen 
+      holders that enable sample cooling down to cryogenic 
       temperatures, we are able to directly understand the structure associated with 
       these systems at their relevant operating temperatures. By combining this information
       with quantum measurements, we are able to directly link specific defects to 
