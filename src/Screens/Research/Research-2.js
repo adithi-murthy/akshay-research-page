@@ -1,6 +1,6 @@
 import React from "react";
 import { Research2Text } from "../../Text/IndividualResearchPages/Research-2";
-import Research2Figure from "../../assets/Figure2.png";
+import Research2Figure from "../../assets/Figure2.jpeg";
 import {
   Research2Publication1,
   Research2Publication2,

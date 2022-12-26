@@ -11,7 +11,7 @@ import {
   MDBRipple,
 } from "mdb-react-ui-kit";
 import Figure1 from "../assets/Figure1.jpeg";
-import Figure2 from "../assets/Figure2.png";
+import Figure2 from "../assets/Figure2.jpeg";
 import Figure3 from "../assets/Figure3.png";
 import {
   Research1,
