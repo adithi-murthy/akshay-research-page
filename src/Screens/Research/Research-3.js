@@ -7,7 +7,7 @@ const Research3 = () => {
   return (
     <div>
       <div className="researchDiv">
-        <img src={Research3Figure} alt="Probing Emergent Phenomena" id="research3Figure" />
+        <img src={Research3Figure} alt="Probing Quantum Phenomena" id="research3Figure" />
         <div id="research3Text">{Research3Text}</div>
       </div>
       <div className="relatedPublications">

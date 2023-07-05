@@ -110,10 +110,10 @@ const NavBar = () => {
                     Identifying Chemical Impurities
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href="/probing-emergent-phenomena"
+                    href="/probing-quantum-phenomena"
                     id="dropdownItems"
                   >
-                    Probing Emergent Phenomena
+                    Probing Quantum Phenomena
                   </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="/research-group" className="hashlink">

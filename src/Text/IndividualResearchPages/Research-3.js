@@ -1,6 +1,6 @@
 const Research3Text = (
   <div>
-    <h1>Probing Emergent Phenomena:</h1>
+    <h1>Probing Quantum Phenomena:</h1>
     <p className="individualResearchBody">
       With access to rich atomic level structural information and insights into
       the impurities present, the missing piece to systematically improving the 
@@ -17,11 +17,10 @@ const Research3Text = (
 
 const Research3Publication1 = (
   <div>
-    <b>Murthy, A. A.</b>; Stanev, T. K.; Ribet, S. M.; Watanabe, K.; Taniguchi,
-    T.; Stern, N. P.; dos Reis, R.; Dravid, V. P., Spatial Mapping of
-    Electrostatic Fields across 2D Heterostructures. <i>Nano Lett.</i> 21 (17),{" "}
-    <b>2021</b>, 7131-7137{" "}
-    <a href="https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.1c01636">
+    Bal, M.*; <b>Murthy, A. A.</b>*; Zhu, S.*; Crisa, F.*;...Romanenko, A.,
+    Grassellino, A., Systematic Improvements in Transmon Qubit Coherence Enabled 
+    by Niobium Surface Encapsulation. <i>arXiv:2304.13257</i> {" "}
+    <a href="https://arxiv.org/abs/2304.13257">
       [HTML]
     </a>
   </div>
@@ -29,11 +28,11 @@ const Research3Publication1 = (
 
 const Research3Publication2 = (
   <div>
-    <b>Murthy, A. A.</b>*; Yasaei, P.*; Xu, Y.; dos Reis, R.; Shekhawat, G. S.;
-    Dravid, V. P., Spatial Mapping of Hot-Spots across Interfaces in Monolayer
-    Transition Metal Dichalcogenides, <i>Adv. Mater.</i>, <b>2019</b>, 31,
-    1808244{" "}
-    <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.201808244">
+    <b>Murthy, A. A.</b>; Stanev, T. K.; Ribet, S. M.; Watanabe, K.; Taniguchi,
+    T.; Stern, N. P.; dos Reis, R.; Dravid, V. P., Spatial Mapping of
+    Electrostatic Fields across 2D Heterostructures. <i>Nano Lett.</i> 21 (17),{" "}
+    <b>2021</b>, 7131-7137{" "}
+    <a href="https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.1c01636">
       [HTML]
     </a>
   </div>

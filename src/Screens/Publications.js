@@ -22,7 +22,7 @@ import {
 } from "../Text/Publications";
 import "./Publications.css";
 import SIMS from "../assets/publication_images/SIMS.png";
-import DPC from "../assets/publication_images/DPC.png";
+import encapsulation from "../assets/publication_images/encapsulation.png";
 import RDF from "../assets/publication_images/rdf.png";
 
 const styles = {
@@ -60,8 +60,8 @@ const PublicationsText = (
       <MDBRow className="g-0">
         <MDBCol md="4">
           <MDBCardImage
-            src={RDF}
-            id="Decoherence Mechanisms"
+            src={encapsulation}
+            id="Surfae Encapsulation"
             alt="..."
             fluid
             className="publicationImages"
@@ -83,8 +83,8 @@ const PublicationsText = (
       <MDBRow className="g-0">
         <MDBCol md="4">
           <MDBCardImage
-            src={SIMS}
-            id="TOF-SIMS"
+            src={RDF}
+            id="RDF"
             alt="..."
             fluid
             className="publicationImages"
@@ -106,8 +106,8 @@ const PublicationsText = (
       <MDBRow className="g-0">
         <MDBCol md="4">
           <MDBCardImage
-            src={DPC}
-            id="DPC"
+            src={SIMS}
+            id="ToF-SIMS"
             alt="..."
             fluid
             className="publicationImages"

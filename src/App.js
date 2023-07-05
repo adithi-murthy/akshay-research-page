@@ -18,7 +18,7 @@ function App() {
         <Switch>
           <Route path="/investigating-structural-dynamics" component={Research1} />
           <Route path="/identifying-chemical-impurities" component={Research2} />
-          <Route path="/probing-emergent-phenomena" component={Research3} />
+          <Route path="/probing-quantum-phenomena" component={Research3} />
           <Route path="/publications" component={Publications} />
           <Route path="/research-group" component={ResearchGroup} />
           <Route path="/" component={Home} />

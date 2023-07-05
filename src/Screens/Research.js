@@ -113,7 +113,7 @@ const Research = (
         </MDBCardBody>
       </MDBCard>
       <MDBCard style={{ margin: "0% 2% 5% 0%" }}>
-        <a href="/probing-emergent-phenomena">
+        <a href="/probing-quantum-phenomena">
           <MDBCardTitle
             style={{
               textAlign: "center",
@@ -130,9 +130,9 @@ const Research = (
             style={{ display: "block" }}
           >
             <MDBCardImage
-              href="/probing-emergent-phenomena"
+              href="/probing-quantum-phenomena"
               src={Figure3}
-              alt="probing-emergent-phenomena"
+              alt="probing-quantum-phenomena"
               id="propertiesImg"
               className="researchCardImage"
             />
@@ -145,7 +145,7 @@ const Research = (
         <MDBCardBody style={{ textAlign: "center" }}>
           <MDBCardText id="propertiesText">{Research3Description}</MDBCardText>
           <MDBCardFooter>
-            <MDBBtn href="/probing-emergent-phenomena" id="readMoreButton">
+            <MDBBtn href="/probing-quantum-phenomena" id="readMoreButton">
               Read More
             </MDBBtn>
           </MDBCardFooter>
