@@ -117,7 +117,7 @@ const Research = (
           <MDBCardTitle
             style={{
               textAlign: "center",
-              margin: "8% 4% 8% 4%",
+              margin: "8% 4% 20% 4%",
               color: "#4F4F4F",
             }}
           >
