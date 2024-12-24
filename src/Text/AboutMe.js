@@ -5,6 +5,8 @@ export const AboutMeText =
 export const Publication1 = "Researchers at the SQMS Center achieve leading performance in transmon qubits"
 export const Publication2 = "New SQMS study uncovers impurities in a qubit"
 export const Publication3 = "SQMS researchers discover performance-limiting nanohydrides in superconducting qubits"
+export const Publication4 = "A minute with: Akshay Murthy"
 export const Publication1Link = "https://news.fnal.gov/2024/05/researchers-at-the-sqms-center-achieve-leading-performance-in-transmon-qubits/"
 export const Publication2Link = "https://news.fnal.gov/2022/02/new-sqms-study-uncovers-impurities-in-a-qubit/?utm_source=newsletter&utm_medium=email&utm_campaign=ft-220217"
 export const Publication3Link = "https://news.fnal.gov/2021/12/sqms-researchers-discover-performance-limiting-nanohydrides-in-superconducting-qubits/"
+export const Publication4Link = "https://news.fnal.gov/2024/10/a-minute-with-akshay-murthy/"

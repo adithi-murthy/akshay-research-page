@@ -29,10 +29,12 @@ const Research2Publication1 = (
 
 const Research2Publication2 = (
   <div>
-    <b>Murthy, A. A.</b>*; Lee, J. Y.*; Sung, Z.*; Reagor, M.; Grassellino, A.; Romanenko, A., 
-    Discovery of Nb hydride precipitates in superconducting qubits. {" "}
-    <i>arXiv preprint arXiv:2108.10385.</i> <b>2021</b> {" "}
-    <a href="https://arxiv.org/abs/2108.10385">[HTML]</a>
+    Oh, J.-S.; Zaman, R.; <b>Murthy, A. A.</b>; Bal, M.; Crisa, F.; Zhu, S.; Torres-Castanedo, C. G.;
+     Kopas, C. J.; Mutus, J. Y.; Jing, D.; Zasadzinski, J.; Grassellino, A.; Romanenko, A.; 
+     Hersam, M. C.; Bedzyk, M. J.; Kramer, M. J.; Zhou, B.-C.; Zhou, L., 
+     Structure and Formation Mechanisms in Tantalum and Niobium Oxides in Superconducting Quantum Circuits. 
+     <i>ACS Nano</i>, 18 (30) <b>2024</b>, 19732-19741. 
+     <a href="https://pubs.acs.org/doi/10.1021/acsnano.4c05251">[HTML]</a>
   </div>
 );
 

@@ -5,8 +5,12 @@ import {
   AboutMeText,
   Publication1,
   Publication2,
+  Publication3,
+  Publication4,
   Publication1Link,
   Publication2Link,
+  Publication3Link,
+  Publication4Link,
 } from "../Text/AboutMe";
 import Pdf from "../assets/Murthy_CV.pdf";
 import Google_Scholar_logo from "../assets/Google_Scholar_logo.svg.png";
@@ -65,6 +69,16 @@ const AboutMe = (
         <li>
           <a href={Publication2Link} className="link">
             {Publication2}
+          </a>
+        </li>
+        <li>
+          <a href={Publication3Link} className="link">
+            {Publication3}
+          </a>
+        </li>
+        <li>
+          <a href={Publication4Link} className="link">
+            {Publication4}
           </a>
         </li>
       </ol>

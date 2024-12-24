@@ -17,7 +17,19 @@ const Research1Text = (
   </div>
 );
 
+
+
 const Research1Publication1 = (
+  <div>
+    Bafia, D.; <b>Murthy, A. A.</b>; Grassellino, A.; Romanenko, A., Oxygen Vacancies 
+    in Niobium Pentoxide as a Source of Two-Level System Losses in Superconducting 
+    Niobium. <i>Phys. Rev. App.</i> 22 (2),{" "}
+    <b>2024</b>, 024035{" "}
+    <a href="https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.22.024035">[HTML]</a>
+    </div>
+);
+
+const Research1Publication2 = (
   <div>
     <b>Murthy, A. A.</b>; Das, P. M.; Ribet, S. M.; Kopas, C.; Lee, J.; Reagor,
     M. J.; Zhou, L.; Kramer, M. J.; Hersam, M. C.; Checchin, M.; Grassellino,
@@ -29,23 +41,4 @@ const Research1Publication1 = (
   </div>
 );
 
-const Research1Publication2 = (
-  <div>
-    <b>Murthy, A. A.</b>; Stanev, T. K.; Ribet, S. M.; Watanabe, K.; Taniguchi,
-    T.; Stern, N. P.; dos Reis, R.; Dravid, V. P., Spatial Mapping of
-    Electrostatic Fields across 2D Heterostructures. <i>Nano Lett.</i> 21 (17),{" "}
-    <b>2021</b>, 7131-7137{" "}
-    <a href="https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.1c01636">[HTML]</a>
-  </div>
-);
-
-const Research1Publication3 = (
-  <div>
-    <b>Murthy, A. A.</b>; Stanev, T. K.; dos Reis, R.; Hao, S.; Wolverton, C.;
-    Stern, N. P.; Dravid, V. P., Direct Visualization of Electric Field induced
-    Structural Dynamics in Monolayer Transition Metal Dichalcogenides.{" "}
-    <i>ACS Nano</i>, 14 (2), <b>2020</b>, 1569-1576{" "}
-    <a href="https://pubs.acs.org/doi/abs/10.1021/acsnano.9b06581">[HTML]</a>
-  </div>
-);
-export { Research1Text, Research1Publication1, Research1Publication2, Research1Publication3 };
+export { Research1Text, Research1Publication1, Research1Publication2};
